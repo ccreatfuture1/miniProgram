@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/herbs/herbs",
+    "pages/consultation/consultation",
+    "pages/account/account",
+    "pages/examine/examine",
+    "pages/course/course"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新中方",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#08ca7b",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/menu/index.png",
+      "selectedIconPath": "image/menu/index.png"
+    },{
+      "pagePath": "pages/herbs/herbs",
+      "text": "药草百科",
+      "iconPath": "image/menu/herbs.png",
+      "selectedIconPath": "image/menu/herbs.png"
+    },{
+      "pagePath": "pages/consultation/consultation",
+      "text": "问诊",
+      "iconPath": "image/menu/consultation.png",
+      "selectedIconPath": "image/menu/consultation.png"
+    },{
+      "pagePath": "pages/account/account",
+      "text": "我的",
+      "iconPath": "image/menu/account.png",
+      "selectedIconPath": "image/menu/account.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,105 @@
+/**index.wxss**/
+page{
+  display: flex;
+  flex-direction: column;  
+  color: #17181a;
+  height: 100%;
+}
+.content{
+ height: 100%;
+}
+
+/* 设置滚动条样式：
+  webkit兼容chrome（谷歌）、safari（MacOS端浏览器），-moz 兼容firefox（火狐），-ms 兼容ie。
+   因为只有谷歌支持修改滚动条样式，所以要带上::-webkit-  */
+   ::-webkit-scrollbar {    
+    width: 0;
+    height: 0;
+    color: transparent;
+  }
+  /* 主要功能区 */
+  .content-main{
+    display: flex;
+    height: 200rpx;
+    width: 100%;
+  }
+  .content-main >view{
+    flex: 1;
+    border-right: 1rpx solid #ccc;
+  }
+/*用于覆盖最右边的边框*/
+  .content-main >view:last-child{
+    border-right: 1rpx solid #fff;
+  }
+   .content-main >view >image{
+   width:100rpx;
+   height: 100rpx;
+  margin-left: 80rpx;
+  margin-top:10rpx;
+  }
+  .content-main >view >text{
+   display: block;
+   font-size: 9pt;
+   text-align: center;
+  }
+  .content-main >view >text:last-child{
+    font-size: 7pt;
+  }
+
+  /* 推荐页功能按钮区 */
+.content-portal {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top:20rpx;
+}
+
+.content-portal > view {
+  flex: 1;
+  font-size: 8pt;
+  /* 文本居中 */
+  text-align: center;
+}
+
+.content-portal image {
+  width: 70rpx;
+  height: 70rpx;
+  /* 上下边距为20rpx，左右居中 */
+  margin: 20rpx auto;
+  /* 设置为块级元素，独占一行 */
+  display: block;
+}
+
+
+/*  轮播图区*/
+.content-slide {
+  height: 200rpx;
+  width: 95%;
+  margin:0 auto;
+  border:1rpx solid rgba(88, 86, 86, 0.8);
+  border-radius: 5%;
+}
+
+.content-slide image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+/* 今日推荐 */
+.recommend-title{
+  font-size: 15pt;
+  color: #17181a;
+  margin-top: 30rpx;
+  margin-left: 35rpx;
+}
+.recommend-text{
+  height: 650rpx;
+  width: 95%;
+  margin:0 auto;
+  border:1rpx solid rgba(88, 86, 86, 0.8);
+  border-radius: 5%;
+  margin-bottom: 35rpx;
+  box-shadow:0px 3px 1px 1px rgb(187, 186, 186);
+  background-image: url(https://img1.dxycdn.com/2020/0119/050/3391781241153256356-22.png);
+  background-size: cover;
+}

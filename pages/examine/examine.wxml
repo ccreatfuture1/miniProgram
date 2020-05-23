@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!-- 标签页标题 -->
+<view class="tab">
+  <view class="tab-item {{tab==0?'active':''}}" bindtap="changeItem" data-item="0">手机测量</view>
+  <view class="tab-item {{tab==1?'active':''}}" bindtap="changeItem" data-item="1">手环测量</view>
+  <view class="tab-item {{tab==2?'active':''}}" bindtap="changeItem" data-item="2">中医体质</view>
+  <view class="tab-item {{tab==3?'active':''}}" bindtap="changeItem" data-item="3">心率区间</view>
+</view>
+<!-- 标签页内容区 -->
+<view class="content">
+  <!--current：当前滑块显示页面索引号； bindchange：滑块滑动时监听函数  -->
+  <swiper current="{{item}}" bindchange="changeTab">
+    <swiper-item>
+      <include  src="mobileExamine.wxml" />
+    </swiper-item>
+    <swiper-item>
+      <include src="loopExamine.wxml" />
+    </swiper-item>
+    <swiper-item>
+      <include src="doctorExamine.wxml" />
+    </swiper-item>
+     <swiper-item>
+      <include src="heartRateExamine.wxml" />
+    </swiper-item>
+  </swiper>
+</view>
+
+

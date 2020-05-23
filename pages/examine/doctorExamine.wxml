@@ -1,0 +1,68 @@
+<!-- scorll-view中如设置了scroll-y属性，即纵向滚动，则必须为scroll-view设置固定高度 -->
+<scroll-view class="content-info" scroll-y>
+  <!-- scroll-view示例 -->
+  <!-- <view style="background: #eee; height: 1000px"></view>
+  <view>已到达底部</view> -->
+<view class="doctor">
+  <text>以下问题请根据你最近三个月的身体状况如实回答，孕妇以及16周岁以下人群不建议使用本题测试。</text>
+  <view class="topic">
+    <text >1.您喜欢安静懒得说话吗？</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio-radio">
+        <radio value="china" />没有
+        <radio value="china" />很少
+        <radio value="china" />有时
+        <radio value="china" />经常
+      </label>
+    </radio-group>
+  </view>
+
+    <view class="topic">
+    <text >1.您喜欢安静懒得说话吗？</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio-radio">
+        <radio value="china" />没有
+        <radio value="china" />很少
+        <radio value="china" />有时
+        <radio value="china" />经常
+      </label>
+    </radio-group>
+  </view>
+
+    <view class="topic">
+    <text >1.您喜欢安静懒得说话吗？</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio-radio">
+        <radio value="china" />没有
+        <radio value="china" />很少
+        <radio value="china" />有时
+        <radio value="china" />经常
+      </label>
+    </radio-group>
+  </view>
+
+    <view class="topic">
+    <text >1.您喜欢安静懒得说话吗？</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio-radio">
+        <radio value="china" />没有
+        <radio value="china" />很少
+        <radio value="china" />有时
+        <radio value="china" />经常
+      </label>
+    </radio-group>
+  </view>
+
+    <view class="topic">
+    <text >1.您喜欢安静懒得说话吗？</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio-radio">
+        <radio value="china" />没有
+        <radio value="china" />很少
+        <radio value="china" />有时
+        <radio value="china" />经常
+      </label>
+    </radio-group>
+  </view>
+</view>
+</scroll-view>
