@@ -1,0 +1,33 @@
+<!--pages/index/recommend.wxml-->
+<scroll-view class="content" scroll-y>
+      <view class="title">
+         <image class="title-one" src="/image/index/back.png" bindtap="back"></image>
+         <text class="title-txt">今日推荐</text>
+         <image class="title-two" src="/image/index/collection.png"></image>
+         <image class="title-three" src="/image/index/forward.png"></image>
+      </view>
+      <view class="banner">
+           <text class="banner-title">
+              人参的功效真的有传说中的那么好吗？
+           </text>
+           <view class="banner-icon">
+            <image src="/image/index/doctor.png" class="banner-icon-image" ></image>
+            <text class="banner-icon-name">新中方</text>
+            <text class="banner-icon-txt">健康科普平台</text>
+        </view>
+        <view class="txt">
+          首先给大家陈列一组我国目前的人群亚健康状况的数据：
+
+我国亚健康人群比例在2017年就高达76% ,真正健康的人仅占不到30%！从亚健康人群的年龄段分布来看, 30岁以上的占比高达75% ,然而这个数字还在持续地增加中。
+
+通俗地说，就是这76%的人通常没有器官、组织、功能上的病症和缺陷，但是自我感觉不适，疲劳乏力，反应迟钝、活力降低、适应力下降，经常处在焦虑、烦乱、无聊、无助的状态中，自觉活得很累。
+
+焦虑、烦乱、无聊、无助所导致的身体状况频发，其实这些都是我们现在大多数人的状况，身体疾病越来越多，我们嘴上总是说着要按时睡觉不要熬夜，但是有时候就是迫不得已要加班，要熬夜......
+
+这时候，养生就该提上日程了，毕竟我们都不再是18岁的少女了，身体的保养一定是一件值得注意的事情了。
+
+而人参，就是很好地养生补品，并且人参的滋补作用远比你知道的还要多。
+        </view>
+           
+      </view>
+</scroll-view>

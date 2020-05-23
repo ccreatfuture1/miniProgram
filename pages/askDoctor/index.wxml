@@ -1,0 +1,71 @@
+<view class="tab">
+  <view class="image">
+    <image src="/image/askDoctor/1.png"></image>
+  </view>
+  找医生
+</view>
+<view class="tab1">
+ <view class="weui-search-bar__box">
+   <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+   <input type="text" class="weui-search-bar__input" placeholder="搜索医生"/>
+ </view>
+</view>
+<view class="tab2">
+快速匹配医生
+<view class="table">
+<view class="tr">
+<view class="th">流感</view>
+<view class="th">用药咨询</view>
+<view class="th">流感咨询</view>
+<view class="th">宝宝健康</view>
+</view>
+<view class="tr">
+<view class="th">护肤</view>
+<view class="th">美容整形</view>
+<view class="th">肥胖</view>
+<view class="th">月经不调</view>
+</view>
+<view class="tr">
+<view class="th">支气管炎</view>
+<view class="th">鼻炎</view>
+<view class="th">焦虑</view>
+<view class="th">失眠</view>
+</view>
+</view>
+</view>
+<view class="tab3">
+  <image src="/image/askDoctor/皮肤病科.png"></image>
+  <text class="word">皮肤性病科
+  手脚藓,丹毒,水痘，淋病...
+   </text>
+   <view class="image1">
+   <image src="/image/askDoctor/next.png"></image>
+   </view>
+</view>
+<view class="tab3">
+  <image src="/image/askDoctor/儿科.png"></image>
+  <text class="word">儿科
+  小儿发烧，咳嗽，哮喘...
+   </text>
+   <view class="image1">
+   <image src="/image/askDoctor/next.png"></image>
+   </view>
+</view>
+<view class="tab3">
+  <image src="/image/askDoctor/妇产科.png"></image>
+  <text class="word">妇产科
+  妇科炎症，妇科病，早产...
+   </text>
+   <view class="image1">
+   <image src="/image/askDoctor/next.png"></image>
+   </view>
+</view>
+<view class="tab3">
+  <image src="/image/askDoctor/骨科.png"></image>
+  <text class="word">骨科
+  骨折，股骨头坏死，关节炎..
+   </text>
+   <view class="image1">
+   <image src="/image/askDoctor/next.png"></image>
+   </view>
+</view>

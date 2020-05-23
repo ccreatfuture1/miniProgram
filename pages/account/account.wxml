@@ -1,0 +1,47 @@
+<!--account.wxml-->
+<!--我的-->
+<view class="account">
+  <!--注册/登录-->
+    <view class="account-head"> 注册/登录 </view>
+ <!--我的-内容-->
+    <view class="account-part">
+     <view class="account-part-one">
+       <image src="/image/container/1.jpg"></image>
+       <text>我的体检</text>
+       <view class="account-part-tip"></view>     
+       <image src="/image/container/2.jpg"></image>
+       <text>购买的课堂</text>
+       <view class="account-part-tip"></view>    
+       <image src="/image/container/3.jpg"></image>
+       <text>购买的药品</text>
+       <view class="account-part-tip"></view>    
+     </view>
+      <view class="account-part-one">
+       <image src="/image/container/4.jpg"></image>
+       <text>每日提醒</text>
+       <view class="account-part-tip"></view>
+       <image src="/image/container/5.jpg"></image>
+       <text>我的健康日志</text>
+       <view class="account-part-tip"></view>
+     </view>
+     <view class="account-part-one">
+       <image src="/image/container/6.jpg"></image>
+       <text>个人信息</text>
+       <view class="account-part-tip"></view>
+       <image src="/image/container/7.jpg"></image>
+       <text>关注的医生</text>
+       <view class="account-part-tip"></view>    
+       <image src="/image/container/8.jpg"></image>
+       <text>我的收藏</text>
+       <view class="account-part-tip"></view>     
+     </view>
+     <view class="account-part-one">
+       <image src="/image/container/9.jpg"></image>
+       <text>用户反馈</text>
+       <view class="account-part-tip"></view>    
+       <image src="/image/container/10.jpg"></image>
+       <text>设置</text>
+       <view class="account-part-tip"></view>    
+     </view>
+    </view>
+</view>

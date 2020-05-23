@@ -1,0 +1,44 @@
+page{
+  background-color: rgba(229,229,229,100);
+  font-size: 14pt;
+}
+
+.account-head{
+  color: rgba(0, 186, 173, 100);
+  background-color: white;
+  font-size:16pt;
+  width: 750rpx;
+  height: 102rpx;
+  padding-top: 10rpx;
+  padding-left: 80rpx;
+}
+.account-part{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.account-part image {
+  width: 96rpx;
+  height: 96rpx;
+  margin-left: 15rpx;
+}
+.account-part-one > text{
+  position: absolute;
+  margin-top: 31rpx;
+  margin-left: 13rpx;
+  font-size: 15pt;
+}
+
+.account-part-one{
+  flex: 1;
+  border: 10rpx solid rgba(229, 229, 229, 100);
+}
+.account-part-tip{
+  border-bottom: 2rpx solid #ccc;
+  border-left: 100rpx solid white;
+  border-right: 100rpx solid white;
+}
+

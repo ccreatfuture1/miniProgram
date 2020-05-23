@@ -1,0 +1,53 @@
+<view class="tab">
+<view>
+
+</view>
+<text class="title">健康日记</text>
+</view>
+<!--日历-->
+<calendar calendar-style="calendar" header-style="header"  board-style="board" />
+<view class="signIn">
+<view>2020-5-22的记录(今天)
+<!--签到情况-->
+<text class="isSign">签</text>
+<button class="deleteSign" size="mini" plain lang="zh_CN" ><text>删除签到</text></button>
+</view>
+</view>
+
+<!--记录-->
+<view class="signItem">
+<view class="movement">
+<image src="/image/drugs/fit.png"/>
+<text class="items">运动</text>
+<text class="record">未记录</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+
+
+<view class="habit">
+<image src="/image/drugs/habit.png"/>
+<text class="items">良好习惯</text>
+<text class="record">早睡,早起</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+<view class="water">
+<image src="/image/drugs/water.png"/>
+<text class="items">健康8杯水</text>
+<text class="record">5杯</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+<view class="bloodPress">
+<image src="/image/drugs/bloodPress.png"/>
+<text class="items">血压</text>
+<text class="record">96/62</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+</view>
+
+<view class="btn_diary">
+<image src="/image/drugs/记录.png"></image>
+<button plain>生成健康日记</button>
+</view>

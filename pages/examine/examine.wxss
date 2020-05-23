@@ -1,0 +1,169 @@
+/**index.wxss**/
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tab {
+  display: flex;
+}
+
+.tab-item {
+  flex: 1;
+  font-size: 10pt;
+  text-align: center;
+  line-height: 72rpx;
+  border-bottom: 6rpx solid #eee;
+}
+/**内容区*/
+.content {
+  flex: 1;
+}
+
+.content-info {
+  height: 100%;
+}
+
+/* 设置滚动条样式：
+  webkit兼容chrome（谷歌）、safari（MacOS端浏览器），-moz 兼容firefox（火狐），-ms 兼容ie。
+   因为只有谷歌支持修改滚动条样式，所以要带上::-webkit-  */
+::-webkit-scrollbar {    
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.content > swiper{
+  height: 100%;
+}
+
+.active {
+  color: #08ca7b;
+  border-bottom-color: #08ca7b;
+}
+/*手机测量*/
+.notice{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 350rpx;
+  border: 2rpx solid #ccc;
+}
+.notice >text{
+  display: block;
+  font-size: 12pt;
+}
+.notice >text:first-child{
+  text-align: center;
+  font-size: 14pt
+}
+.test{
+  display: flex;
+   margin-top: 20rpx;
+  width: 100%;
+  height: 350rpx;
+  border: 2rpx solid #ccc;
+
+}
+.test >view{
+  flex: 1;
+  border-radius: 50%;
+  background: red;
+  margin: 50rpx;
+
+}
+.test >view:last-child{
+  background: blue;
+  color: white;
+
+}
+.test >view >text{
+  display: block;
+  text-align: center;
+  margin-top:100rpx;
+
+}
+/*中医体质*/
+.doctor{
+  width: 90%;
+  margin: auto;
+}
+.doctor >text{
+  font-size: 9pt;
+  color: rgb(255, 87, 51)
+}
+.topic{
+  height: 150rpx;
+  width: 90%;
+  margin-top:20rpx;
+  margin-left: 20rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+.radio-radio{
+  font-size: 8pt;
+}
+/*手环测量*/
+
+
+.blood-one{
+  display: flex;
+  height: 180rpx;
+ 
+}
+.blood-one >view{
+ box-shadow:0px 1px 1px 1px rgb(212, 210, 210);
+ text-align: center;
+ flex: 1;
+}
+.blood-one >view >image{
+width: 100rpx;
+height: 100rpx;
+
+}
+.blood-one >view >text{
+  display: block;
+}
+
+
+.loop-connect{
+  width: 100%;
+  height: 100rpx;
+  margin-top:20rpx;
+  border: 2rpx solid #ccc;
+  flex: 1;
+  box-shadow:0px 1px 1px 1px rgb(212, 210, 210);
+  
+}
+.loop-connect >text{
+  position: absolute;
+  font-size: 14pt;
+  margin-top:15rpx;
+  margin-left: 20rpx;
+}
+.loop-connect >image{
+margin-left: 200rpx;
+ height: 60rpx;
+ width: 60rpx;
+ margin-top:20rpx;
+ 
+}
+/*心率区间*/
+
+.heart-knowledge{
+  width: 95%;
+  height: 450rpx;
+  border: 2rpx solid #c25b5b;
+  font-size: 9pt;
+  margin:10rpx auto;
+}
+.heart-knowledge >text:first-child{
+  display: block;
+  text-align: center;
+  color: red;
+  font-size: 12pt;
+}
+.heart-knowledge >text{
+  display: block;
+}
+
+
+

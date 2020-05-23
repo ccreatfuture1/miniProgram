@@ -1,0 +1,29 @@
+<scroll-view class="content-info" scroll-y>
+  <view class="heart-knowledge">
+    <text>心率基本知识</text>
+    <text>静息心率是指在清醒、不活动的安静状态下，每分钟心跳的次数。建议测量静息心率时，静坐两分钟以上再进行测量）
+      静息心率能在50-70次，是健康心脏的标志，也是长寿的标志。运动使心功能得到锻炼，保持适当体重，戒烟与限酒等均可使静息心率保持在一个相当缓慢而稳定的区间。 
+     熬夜、过渡疲劳、睡眠不足会导致静息心率过高。</text>
+  </view>
+  
+
+  	<view class="weui-progress">
+			<view class="weui-progress__bar">
+				<view class="weui-progress__inner-bar js_progress" style="width: 30%;"></view>
+			</view>
+			<a class="weui-progress__opr">
+				<i class="weui-icon-cancel"></i>
+			</a>
+		</view>
+		<text>心率区间计算</text>
+		<view class="weui-progress">
+			<view class="weui-progress__bar">
+				<view class="weui-progress__inner-bar js_progress" style="width: 50%;"></view>
+			</view>
+			<a class="weui-progress__opr">
+				<i class="weui-icon-cancel"></i>
+			</a>
+		</view>
+    <text>测量静息心率</text>
+    <image style="width:100%;" src="/image/index/compute.png"></image>
+</scroll-view>

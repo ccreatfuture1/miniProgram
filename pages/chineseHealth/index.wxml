@@ -1,0 +1,47 @@
+<view class="tab">
+  <view class="image">
+    <image src="/image/chineseHealth/1.png"></image>
+  </view>
+
+  <text>
+    中医健康
+  </text>
+   
+   <view class="image1">
+    <image src="/image/chineseHealth/2.png"></image>
+  </view>
+  <view class="image2">
+    <image src="/image/chineseHealth/3.png"></image>
+  </view>
+</view>
+<view class="tab1"> 
+  <button class="button"  disabled='{{disabled}}'>立即问诊</button>
+  <image class="image3"  src="/image/chineseHealth/4.jpg"></image>
+</view>
+<view class="tab2">
+中医将人分为9种体质，根据体质的不用，进行调理
+</view>
+<view class="tab3">
+<image class="image4" src="/image/chineseHealth/5.png"></image>
+</view>
+<view class="tab4"> 
+  <button class="button1"  disabled='{{disabled}}'>测一测你的体质</button>
+</view>
+<view class="tab5">
+中医调理热门排行榜
+<view class="tab6">已有10000用户进行了调理</view>
+</view>
+<view class="tab7">
+  <view>
+    <image src="/image/chineseHealth/6.png"> </image>
+  </view>
+  <view>
+    <image src="/image/chineseHealth/7.png"> </image>
+  </view>
+  <view>
+    <image src="/image/chineseHealth/8.png"> </image>
+  </view>
+</view>
+<view class="tab8">
+ <button class="button2"  disabled='{{disabled}}'>更多症状，快速问医生</button>
+</view>

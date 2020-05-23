@@ -1,0 +1,25 @@
+<!-- scorll-view中如设置了scroll-y属性，即纵向滚动，则必须为scroll-view设置固定高度 -->
+<scroll-view class="content-info" scroll-y>
+  <!-- scroll-view示例 -->
+  <!-- <view style="background: #eee; height: 1000px"></view>
+  <view>已到达底部</view> -->
+<view>
+  <image style="height:300rpx;width:100%;" src="/image/index/feiyan02.jpg"></image>
+  <view class="notice">
+  <text>测量注意事项</text>
+  <text>1.用手指按着屏幕。
+2.轻轻的把食指放在手机背面摄像头上，确保
+  摄像头被完全覆盖。
+3.保持住这个姿势直到测试完成。
+4.手指不必按着闪光灯，可能会发烫。</text>
+  </view>
+
+  <view class="test">
+  <view><text>血压校准</text></view>
+  <view><text>开始测量</text></view>
+  </view>
+</view>
+
+
+ 
+</scroll-view>

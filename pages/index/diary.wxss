@@ -1,0 +1,121 @@
+.tab{
+  width: 375prx;
+  height: 90rpx;
+  background-color: #ffffff;
+  border: 1px solid gray;
+  text-align: center;
+}
+.back{
+  width: 30rpx;
+  height: 30rpx;
+}
+.title{
+  display: block;
+  margin-top: 10px;
+}
+
+.calendar {
+  background-color:#fcf5f5;  /*背景色为白色*/
+  padding-top: 10px;       /*上内边距为 10px*/
+  border-radius: 15px;     /*添加边框圆角*/
+}
+.header {
+  font-size: large;
+  color: #59518d;   
+}
+.board {
+  color: #c7cbe2;
+  font-weight: bold;
+}
+.signIn{
+  display: flex;
+  width: 100%;
+  height: 50rpx;
+  position: relative;
+  border: 1px solid gray;
+}
+.signIn view {
+    margin-left: 12px;
+}
+.signIn text{
+color: #0fda1d;
+}
+.signIn button{
+  width: 80rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 5rpx;
+  border: none;
+}
+.signIn button text{
+  display: block;
+  margin-top: -10rpx;
+  font-size: 10pt;
+}
+.signItem{
+  width: 750rpx;
+  height: 380rpx;
+  display: flex;
+  flex-direction:column;
+}
+.signItem view{
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position:relative ;
+  border: 1px solid gray;
+  font-size: 10pt;
+}
+.signItem image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 64rpx;
+  margin-top: 20rpx;
+     
+}
+
+.signItem  .icon_arrow{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top:18rpx;
+  right: 20rpx;
+}
+.signItem text{
+  display: inline-block;
+  width: 150rpx;
+  height: 30rpx;
+  text-align: left;
+ 
+}
+.signItem  .items{
+  position: absolute;
+  top:34rpx;
+  left: 180rpx;
+  color: green;
+}
+.signItem  .record{
+  position: absolute;
+  top:34rpx;
+  right: 10rpx;
+}
+.btn_diary{
+  display: flex;
+  position: relative;
+}
+.btn_diary image{
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  left: 180rpx;
+  top:13.5rpx;
+  
+}
+.btn_diary button{
+  text-align: left;
+  color: green;
+  border:none;
+}
+
+

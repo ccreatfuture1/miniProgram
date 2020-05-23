@@ -1,0 +1,42 @@
+.consultation-title{
+  font-size: 23pt;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+}
+.consultation-part image {
+ width: 160rpx;
+ height:160rpx;
+ margin-left: 20rpx;
+ margin-top: 23rpx;
+}
+.consultation-part{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300rpx;
+  margin-top: 50rpx;
+  border: 2rpx solid rgba(229, 229 229, 100);
+}
+.consultation-part-tab{
+  display: block;
+  position: absolute;
+  font-size: 19pt;
+  font-weight: bold;
+ margin-top: -152rpx;
+  margin-left: 195rpx;
+}
+.consultation-part-content{
+  display: block;
+  position: absolute;
+  font-size: 12pt;
+  font-weight: lighter;
+  opacity: 0.6;
+  margin-top: -65rpx;
+  margin-left: 195rpx;
+}
+
+.consultation-part-one{
+  height: 300rpx;
+  flex: 1;
+}

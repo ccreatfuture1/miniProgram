@@ -1,0 +1,96 @@
+.tab{
+  display: flex;
+  width: 100%rpx;
+  height: 80rpx;
+  font-size: 10pt;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: 600;
+}
+.image{
+  width: 100rpx;
+  height: 80rpx;
+  position: absolute;
+  left: 0rpx;
+}
+.image >image{
+  width: 100rpx;
+  height: 80rpx;
+}
+.tab1{
+  height: 90rpx;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.tab2{
+  height: 320rpx;
+  font-size: 10pt;
+  font-weight: 600;
+}
+.table {
+
+  border: 1px solid gray;
+  border-right:10rpx;
+  border-bottom: 0;
+  width: 98%;
+  }
+  
+  .tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  }
+ .th{
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  text-align: center;
+  width: 100%;
+ }
+.tab3{
+  height: 174rpx;
+  display: flex;
+ border-bottom: 1px solid gray;
+
+}
+.tab3 image{
+width:100rpx;
+height: 100rpx;
+margin-left: 10rpx;
+margin-top: 30rpx;
+}
+.word{
+  font-size: 11pt;
+  font-weight: 600;
+  margin-top: 30rpx;
+}
+.image1{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 600rpx;
+  position: absolute;
+}
+.image1 image{
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 50rpx;
+
+}

@@ -1,0 +1,104 @@
+<!--index.wxml-->
+<scroll-view class="content" scroll-y>
+ 	<view  class="weui-search-bar {{inputShowed ? 'weui-search-bar_focusing' : ''}}" id="searchBar" style="background:white;" >
+			<form class="weui-search-bar__form" style="border:3rpx solid #ccc; box-shadow:0px 1px 1px 1px rgb(187, 186, 186); " >
+				<view class="weui-search-bar__box">
+					<i class="weui-icon-search"></i>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <span class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput"></span>
+				</view>
+				<label class="weui-search-bar__label" bindtap="showInput">
+					<i class="weui-icon-search"></i>
+                    <span class="weui-search-bar__text">搜索</span>
+				</label>
+			</form>
+            <view class="weui-search-bar__cancel-btn" bindtap="hideInput">取消</view>
+		</view>
+<!--主要功能-->
+<view class="content-main">
+  <view bindtap="examine">
+  <image src="/image/index/体检.png"></image>
+  <text >快速体检</text>  
+  <text>专业精准测试</text>  
+  </view>
+  <!--上传测试-->
+   <view>
+  <image src="/image/index/购买.png"></image>
+  <text>去买药</text>  
+  <text>正品健康中药</text>  
+  </view>
+   <view>
+  <image src="/image/index/学习.png"></image>
+  <text>听讲堂</text>  
+  <text>中医知识学习</text>  
+  </view>
+
+</view>
+
+  <view class="content-portal">
+   <view>
+      <image src="/image/index/1.png" bindtap="diary"></image>
+      <text>健康日记</text>
+    </view>
+    <view>
+      <image src="/image/index/2.png" bindtap="drugs"></image>
+      <text>对症下药</text>
+    </view>
+    <view>
+      <image src="/image/index/tiandian.png" bindtap="chineseHeal"></image>
+      <text>中医健康</text>
+    </view>
+    <view>
+      <image src="/image/index/4.png" bindtap="askDoctor"></image>
+      <text>咨询中医</text>
+    </view>
+    
+  </view>
+  <view class="content-portal">
+   <view>
+      <image src="/image/index/paotui.png"></image>
+      <text>肺炎咨询</text>
+    </view>
+    <view>
+      <image src="/image/index/6.png"></image>
+      <text>睡眠改善</text>
+    </view>
+    <view>
+      <image src="/image/index/7.png"></image>
+      <text>饮食推荐</text>
+    </view>
+    <view>
+      <image src="/image/index/8.png"></image>
+      <text>我的健康</text>
+    </view>
+    
+  </view>
+  
+  <!-- 轮播图 -->
+<swiper class="content-slide" indicator-dots indicator-color="raga(255,255,255,0.5)" 
+    indicator-active-color="#fff" autoplay circular>
+    <swiper-item>
+      <image src="/image/index/feiyan01.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/index/feiyan02.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/index/feiyan03.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- 今日推荐 -->
+  
+  <view class="recommend">
+   <view class="recommend-title">
+      今日推荐
+   </view>
+   <view class="recommend-text" bindtap="recommend">
+       <text>人参的功效真的有传说中的那么好吗？</text>
+       <image src="/image/index/rensen.jpg"></image>
+   </view>
+   <view class="recommend-text"></view>
+   <view class="recommend-text"></view>
+  </view>
+</scroll-view>

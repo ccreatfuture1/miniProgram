@@ -1,0 +1,86 @@
+<view class="tab">
+<text class="title">对症下药</text>
+</view>
+<!--搜索-->
+<view class='search'>
+ <input type='text'
+ placeholder='搜索医生'
+ bindinput='input'
+ bindconfirm='confirm'/>
+ <icon type='search' class='icons'></icon>
+ <view wx:for="{{list}}" wx:key='' class='lists'>
+ <text wx:if="{{item.show}}">{{item.name}}</text>
+ </view>
+</view>
+
+<!--快速匹配医生-->
+<view class="match_doctor">
+  <view class="title">快速匹配医生</view>
+
+  <view>
+  <view><text>流感</text></view>
+   <view><text>用药咨询</text></view>
+    <view><text>疫苗咨询</text></view>
+     <view><text>宝宝健康</text></view>
+  </view>
+  
+  <view>
+    <view><text>护肤</text></view>
+   <view><text>美容整形</text></view>
+    <view><text>肥胖</text></view>
+     <view><text>月经不调</text></view>
+  </view>
+   
+   <view>
+  <view><text>支气管炎</text></view>
+   <view><text>鼻炎</text></view>
+    <view><text>焦虑</text></view>
+     <view><text>失眠</text></view>
+  </view>
+
+</view>
+
+
+
+<!--科室-->
+<view class="department">
+<view class="movement">
+<image src="/image/drugs/skin.png"/>
+<text class="department_name">皮肤性病科</text>
+<text class="department_items">皮疹、水痘、麻疹、风疹、疣</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+<view class="movement">
+<image src="/image/drugs/children.png"/>
+<text class="department_name">儿科</text>
+<text class="department_items">小儿发烧、咳嗽、流鼻涕、拉肚子</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+<view class="movement">
+<image src="/image/drugs/madam.png"/>
+<text class="department_name">妇产科&生殖中心</text>
+<text class="department_items">保健、孕检、剖腹产</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+<view class="movement">
+<image src="/image/drugs/Urinary.png"/>
+<text class="department_name">泌尿外科</text>
+<text class="department_items">前列腺炎、尿频、尿急、尿不尽</text>
+<image class="icon_arrow" src="/image/drugs/箭头.png"/>
+</view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+

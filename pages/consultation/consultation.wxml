@@ -1,0 +1,23 @@
+<!--consultation.wxml-->
+<!--咨询-->
+<view class="consultation">
+ <view class="consultation-title">咨询医生</view>
+ <view class="consultation-part">
+  <view class="consultation-part-one">
+   <image src="/image/consultation/1.jpg"/>
+   <text class="consultation-part-tab">图文问诊</text>
+   <text class="consultation-part-content">快速匹配医生，平均一小时回复</text>
+  </view>
+  <view class="consultation-part-one">
+   <image src="/image/consultation/2.jpg"></image>
+   <text class="consultation-part-tab">电话急诊</text>
+   <text class="consultation-part-content">一对一电话咨询，平均60秒接通</text>
+  </view>
+  <view class="consultation-part-one">
+   <image src="/image/consultation/3.jpg"></image>
+   <text class="consultation-part-tab">问医生</text>
+   <text class="consultation-part-content">按科室选择合适的医生</text>
+   <view></view>
+  </view>
+ </view>
+</view>
