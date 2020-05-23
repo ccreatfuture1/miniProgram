@@ -21,7 +21,7 @@
   <text >快速体检</text>  
   <text>专业精准测试</text>  
   </view>
-  
+  <!--上传测试-->
    <view>
   <image src="/image/index/购买.png"></image>
   <text>去买药</text>  
