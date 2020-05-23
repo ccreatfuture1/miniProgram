@@ -10,7 +10,7 @@ Page({
   },
   diary:function(){
     wx.navigateTo({
-      url: '/pages/index/diary',
+      url: '/pages/diary/diary',
     })
   },
   drugs:function(){

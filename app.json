@@ -1,7 +1,6 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/index/diary",
     "pages/drugs/drugs",
     "pages/herbs/herbs",
     "pages/consultation/consultation",
@@ -10,7 +9,8 @@
     "pages/index/recommend",
     "pages/chineseHealth/index",
     "pages/askDoctor/index",
-    "pages/course/course"
+    "pages/course/course",
+    "pages/diary/diary"
   ],
   "window":{
     "backgroundTextStyle":"light",
