@@ -1,18 +1,7 @@
 <view class="tab">
-  <view class="image">
-    <image src="/image/chineseHealth/1.png"></image>
-  </view>
-
   <text>
     中医健康
   </text>
-   
-   <view class="image1">
-    <image src="/image/chineseHealth/2.png"></image>
-  </view>
-  <view class="image2">
-    <image src="/image/chineseHealth/3.png"></image>
-  </view>
 </view>
 <view class="tab1"> 
   <button class="button"  disabled='{{disabled}}'>立即问诊</button>
