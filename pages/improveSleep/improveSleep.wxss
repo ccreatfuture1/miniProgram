@@ -1,0 +1,84 @@
+.image{
+  width: 100%rpx;
+  height: 400rpx;
+}
+.image image{
+  width: 350rpx;
+  height: 350rpx;
+  border-radius: 50%;
+  margin-top: 25rpx;
+  margin-left: 200rpx;
+}
+.control{
+  display: flex;
+  height: 60rpx;
+}
+.image1{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  margin-left: 250rpx;
+}
+.image1 image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.image2{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  margin-left: 350rpx;
+}
+.image2 image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.image3{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  margin-left: 450rpx;
+}
+.image3 image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.title{
+  height: 60rpx;
+  font-size: 11pt;
+  text-align: center;
+  color:gray;
+  border-bottom: 1px solid gray;
+}
+.railing{
+  height: 100rpx;
+  display: flex;
+
+}
+.word{
+  position: absolute;
+  font-size: 11pt;
+  color: gray;
+  font-weight: 600;
+ margin-top: 20rpx;
+ margin-left: 50rpx;
+}
+.word1{
+  position: absolute;
+  font-size: 10pt;
+  color: gray;
+  margin-left: 220rpx;
+  margin-top: 20rpx;
+}
+.image4{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 600rpx;
+  position: absolute;
+}
+.image4 image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+
+}

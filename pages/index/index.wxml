@@ -60,7 +60,7 @@
       <text>肺炎咨询</text>
     </view>
     <view>
-      <image src="/image/index/6.png"></image>
+      <image src="/image/index/6.png" bindtap="improveSleep"></image>
       <text>睡眠改善</text>
     </view>
     <view>

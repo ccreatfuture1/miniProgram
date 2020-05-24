@@ -32,5 +32,10 @@ Page({
     wx.navigateTo({
       url: '/pages/index/recommend',
     })
+  },
+  improveSleep:function(){
+    wx.navigateTo({
+      url: '/pages/improveSleep/improveSleep',
+    })
   }
 })
