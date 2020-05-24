@@ -10,25 +10,25 @@ Page({
       {
         goods_id:1,
         goods_title:'商品标题1',
-        goods_img:'/image/index/feiyan02.jpg',
-        goods_xiaoliang:'0',
+        goods_img:'/image/buy/drug1.jpg',
+        goods_xiaoliang:'800',
         goods_price:'60'
       },{
         goods_id:1,
         goods_title:'商品标题2',
-        goods_img:'/image/index/feiyan02.jpg',
-        goods_xiaoliang:'0',
+        goods_img:'/image/buy/drug2.jpg',
+        goods_xiaoliang:'2000',
         goods_price:'70'
       }, {
         goods_id: 1,
         goods_title: '商品标题3',
-        goods_img: '/image/index/feiyan02.jpg',
+        goods_img: '/image/buy/drug3.jpg',
         goods_xiaoliang: '0',
         goods_price: '80'
       }, {
         goods_id: 1,
         goods_title: '商品标题4',
-        goods_img: '/image/index/feiyan02.jpg',
+        goods_img: '/image/buy/drug1.jpg',
         goods_xiaoliang: '0',
         goods_price: '90'
       }
