@@ -1,11 +1,5 @@
 <!--pages/index/recommend.wxml-->
 <scroll-view class="content" scroll-y>
-      <view class="title">
-         <image class="title-one" src="/image/index/back.png" bindtap="back"></image>
-         <text class="title-txt">今日推荐</text>
-         <image class="title-two" src="/image/index/collection.png"></image>
-         <image class="title-three" src="/image/index/forward.png"></image>
-      </view>
       <view class="banner">
            <text class="banner-title">
               人参的功效真的有传说中的那么好吗？

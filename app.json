@@ -1,16 +1,18 @@
 {
   "pages":[
-    "pages/index/index",
+   "pages/index/index",
     "pages/index/diary",
     "pages/drugs/drugs",
     "pages/herbs/herbs",
     "pages/consultation/consultation",
     "pages/account/account",
     "pages/examine/examine",
-    "pages/index/recommend",
+    "pages/recommend/recommend",
     "pages/chineseHealth/index",
     "pages/askDoctor/index",
+    "pages/feiyan/feifan",
     "pages/course/course"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

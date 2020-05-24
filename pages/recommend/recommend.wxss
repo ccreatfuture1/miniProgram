@@ -19,40 +19,9 @@ page{
     height: 0;
     color: transparent;
   }
-
-  /* title */
-  .tltle{
-    height: 60rpx;
-    width: 100%;
-    position: relative;
-    margin-bottom: 15rpx;
-  }
-  .title-txt{
-    position: absolute;
-    left: 70rpx;
-    font-size: 45rpx;
-  }
-  .title-one{
-    position: absolute;
-    left: 10rpx;
-    width: 60rpx;
-    height: 60rpx;
-    
-  }
-  .title-two{
-    position: absolute;
-    right: 110rpx;
-    width: 60rpx;
-    height: 60rpx;
-  }
-  .title-three{
-    position: absolute;
-    right: 20rpx;
-    width: 60rpx;
-    height: 60rpx;
-  }
-  /* banner */
+ /* banner */
   .banner{
+    margin-top: -80rpx;
    margin-left: 10rpx;
   }
   .banner-title{
