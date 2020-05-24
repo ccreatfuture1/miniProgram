@@ -10,7 +10,8 @@
     "pages/chineseHealth/index",
     "pages/askDoctor/index",
     "pages/course/course",
-    "pages/diary/diary"
+    "pages/diary/diary",
+    "pages/news/news"
   ],
   "window":{
     "backgroundTextStyle":"light",
