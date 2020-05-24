@@ -26,3 +26,15 @@ margin-top:10rpx;
 .content-main >view >text:last-child{
   font-size: 7pt;
 }
+
+/*图片区域*/
+.news-picture{
+  width: 95%;
+  height: 300rpx;
+  margin: 10rpx auto;
+  border: 2rpc solid #ccc;
+}
+.news-picture >image{
+  width: 100%;
+  background: #ddd;
+}

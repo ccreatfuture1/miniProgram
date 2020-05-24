@@ -32,5 +32,20 @@ Page({
     wx.navigateTo({
       url: '/pages/index/recommend',
     })
+  },
+  news:function(){
+    wx.navigateTo({
+      url: '/pages/news/news',
+    })
+  },
+  course:function(){
+    wx.navigateTo({
+      url: '/pages/course/course',
+    })
+  },
+  buy:function(){
+    wx.navigateTo({
+      url: '/pages/buy/buy',
+    })
   }
 })

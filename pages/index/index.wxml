@@ -22,13 +22,13 @@
   <text>专业精准测试</text>  
   </view>
   <!--上传测试-->
-   <view>
+   <view bindtap="buy">
   <image src="/image/index/购买.png"></image>
   <text>去买药</text>  
   <text>正品健康中药</text>  
   </view>
-   <view>
-  <image src="/image/index/学习.png"></image>
+   <view bindtap="course">
+  <image src="/image/index/学习.png" ></image>
   <text>听讲堂</text>  
   <text>中医知识学习</text>  
   </view>
@@ -68,7 +68,7 @@
       <text>饮食推荐</text>
     </view>
     <view>
-      <image src="/image/index/8.png"></image>
+      <image src="/image/index/8.png" bindtap="news"></image>
       <text>健康新闻</text>
     </view>
     

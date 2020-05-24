@@ -35,7 +35,11 @@
   </view>
 
 </view>
+<!--图片栏-->
+<view class="news-picture"> 
 
+<image src=""></image>
+</view>
 
 
 <!--分类健康科普-->
@@ -44,7 +48,7 @@
 			<view class="weui-panel__bd">
 				<a class="weui-media-box weui-media-box_appmsg">
 					<view class="weui-media-box__hd">
-						<image class="weui-media-box__thumb" src="" alt></image>
+						<image class="weui-media-box__thumb" src="/image/herbs/rensen.jpg" alt></image>
 					</view>
 					<view class="weui-media-box__bd">
 						<h4 class="weui-media-box__title">标题一</h4>
@@ -53,7 +57,39 @@
 				</a>
 				<a class="weui-media-box weui-media-box_appmsg">
 					<view class="weui-media-box__hd">
-						<image class="weui-media-box__thumb" src="" alt></image>
+						<image class="weui-media-box__thumb" src="/image/herbs/rensen.jpg" alt></image>
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="weui-media-box__title">标题二</h4>
+						<view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+					</view>
+				</a>
+			</view>
+			<view class="weui-panel__ft">
+				<a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+					<view class="weui-cell__bd">查看更多</view>
+					<text class="weui-cell__ft"></text>
+				</a>
+			</view>
+		</view>
+    
+
+
+<view class="weui-panel weui-panel_access">
+			<view class="weui-panel__hd">每日健康新闻</view>
+			<view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="/image/herbs/rensen.jpg" alt></image>
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="weui-media-box__title">标题一</h4>
+						<view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+					</view>
+				</a>
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="/image/herbs/rensen.jpg" alt></image>
 					</view>
 					<view class="weui-media-box__bd">
 						<h4 class="weui-media-box__title">标题二</h4>
