@@ -4,7 +4,7 @@
   <!-- <view style="background: #eee; height: 1000px"></view>
   <view>已到达底部</view> -->
 <view>
-  <image style="height:300rpx;width:100%;" src="/image/index/feiyan02.jpg"></image>
+  <image style="height:300rpx;width:100%;" src="/image/examine/mobile.png"></image>
   <view class="notice">
   <text>测量注意事项</text>
   <text>1.用手指按着屏幕。

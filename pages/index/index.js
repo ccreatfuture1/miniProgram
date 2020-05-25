@@ -38,7 +38,6 @@ Page({
       url: '/pages/feiyan/feifan',
     })
   },
-<<<<<<< HEAD
   news:function(){
     wx.navigateTo({
       url: '/pages/news/news',
@@ -59,8 +58,6 @@ Page({
       url: '/pages/improveSleep/improveSleep',
     })
   },
-=======
->>>>>>> official
   foodRecommend:function(){
     wx.navigateTo({
       url: '/pages/food/food',
