@@ -38,7 +38,7 @@
 <!--图片栏-->
 <view class="news-picture"> 
 
-<image src=""></image>
+<image src="/image/news/news.jpg"></image>
 </view>
 
 
