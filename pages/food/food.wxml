@@ -1,0 +1,72 @@
+
+<!--搜索-->
+<view class='search'>
+ <input type='text'
+ placeholder="糖尿病患者如何注意饮食"
+ bindinput='input'
+ bindconfirm='confirm'/>
+ <icon type='search' class='icons'></icon>
+ <view wx:for="{{list}}" wx:key='' class='lists'>
+ <text wx:if="{{item.show}}">{{item.name}}</text>
+ </view>
+<!--热门搜索-->
+<view class="hotSearch">
+<text class="title">热门搜索</text>
+<view class="hotSearchItems">
+<view>降血压</view>
+<view>上火饮食</view>
+<view>腹泻该吃什么</view>
+<view>食法增强免疫力</view>
+<view>胃痛</view>
+<view>降血脂</view>
+</view>
+</view>
+<!--历史搜索-->
+<view class="searchHistory">
+<text class="title">历史搜索</text>
+<view class="searchHistoryItems">
+<view>血压高</view>
+<view>夏日降火</view>
+<view>夏日降火</view>
+</view>
+</view>
+
+<!--推荐-->
+<view class="recommend">
+<text class="title">推荐</text>
+<view class="recommendItems">
+<view class="headline"><text>有甲状腺问题,应该忌饮食、低碘饮食还是适碘饮食??</text></view>
+<view class="content"><textarea class="content">有甲状腺疾病，医生经常嘱咐要忌碘饮食或低碘饮食或适碘饮食。但病友们往往听得很糊涂，存着一肚子疑惑。</textarea></view>
+<view class="recommendImg"><image src="/image/food/甲状腺.png"/></view>
+</view>
+</view>
+<view class="line"></view>
+
+<view class="recommendItems">
+<view class="headline"><text>有甲状腺问题,应该忌饮食、低碘饮食还是适碘饮食?</text></view>
+<view class="content"><textarea class="content">有甲状腺疾病，医生经常嘱咐要忌碘饮食或低碘饮食或适碘饮食。但病友们往往听得很糊涂，存着一肚子疑惑。</textarea></view>
+<view class="recommendImg"><image src="/image/food/甲状腺.png"/></view>
+</view>
+<view class="line"></view>
+
+<view class="recommendItems">
+<view class="headline"><text>有甲状腺问题,应该忌饮食、低碘饮食还是适碘饮食?</text></view>
+<view class="content"><textarea class="content">有甲状腺疾病，医生经常嘱咐要忌碘饮食或低碘饮食或适碘饮食。但病友们往往听得很糊涂，存着一肚子疑惑。</textarea></view>
+<view class="recommendImg"><image src="/image/food/甲状腺.png"/></view>
+</view>
+<view class="line"></view>
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+

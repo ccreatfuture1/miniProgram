@@ -1,7 +1,6 @@
 {
   "pages":[
    "pages/index/index",
-    "pages/index/diary",
     "pages/drugs/drugs",
     "pages/herbs/herbs",
     "pages/consultation/consultation",
@@ -13,6 +12,7 @@
     "pages/diary/diary",
     "pages/news/news",
     "pages/buy/buy",
+    "pages/food/food",
     "pages/feiyan/feifan",
     "pages/course/course"
   ],
