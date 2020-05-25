@@ -30,7 +30,12 @@ Page({
   },
   recommend:function(){
     wx.navigateTo({
-      url: '/pages/index/recommend',
+      url: '/pages/recommend/recommend',
+    })
+  },
+  feiyan:function(){
+    wx.navigateTo({
+      url: '/pages/feiyan/feifan',
     })
   },
   news:function(){

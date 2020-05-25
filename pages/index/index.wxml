@@ -55,7 +55,7 @@
     
   </view>
   <view class="content-portal">
-   <view>
+   <view bindtap="feiyan">
       <image src="/image/index/paotui.png"></image>
       <text>肺炎咨询</text>
     </view>
