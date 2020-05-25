@@ -7,7 +7,7 @@
   擅长：不孕不育，阴虚，体寒...
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
 <view class="tab3">
@@ -16,7 +16,7 @@
   擅长：回归热，黄热病，霍乱...
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
 <view class="tab3">
@@ -25,7 +25,7 @@
   擅长：胃出血，食管炎，肠粘连...
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
 <view class="tab3">
@@ -34,7 +34,7 @@
   擅长：手脚藓,丹毒,水痘，淋病...
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
 <view class="tab3">
@@ -43,7 +43,7 @@
   擅长：小儿发烧，咳嗽，哮喘...
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
 <view class="tab3">
@@ -52,7 +52,7 @@
   擅长：妇科炎症，妇科病，早产...
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
 <view class="tab3">
@@ -61,6 +61,6 @@
   擅长：骨折，股骨头坏死，关节炎..
    </text>
    <view class="image1">
-   <image src="/image/askDoctor/next.png"></image>
+   <image src="/image/askDoctor/next.png" bindtap="contact"></image>
    </view>
 </view>
