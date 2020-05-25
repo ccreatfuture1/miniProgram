@@ -1,7 +1,11 @@
 {
   "pages":[
    "pages/index/index",
+<<<<<<< HEAD
+=======
     "pages/index/diary",
+
+>>>>>>> official
     "pages/drugs/drugs",
     "pages/herbs/herbs",
     "pages/consultation/consultation",
@@ -12,7 +16,11 @@
     "pages/askDoctor/index",
     "pages/diary/diary",
     "pages/news/news",
+<<<<<<< HEAD
     "pages/buy/buy",
+=======
+>>>>>>> official
+    "pages/food/food",
     "pages/feiyan/feifan",
     "pages/course/course"
   ],

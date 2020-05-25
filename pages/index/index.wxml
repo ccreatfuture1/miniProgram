@@ -64,7 +64,7 @@
       <text>睡眠改善</text>
     </view>
     <view>
-      <image src="/image/index/7.png"></image>
+      <image src="/image/index/7.png" bindtap="foodRecommend"></image>
       <text>饮食推荐</text>
     </view>
     <view>
