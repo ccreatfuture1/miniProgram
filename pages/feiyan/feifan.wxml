@@ -1,0 +1,32 @@
+<!--pages/feiyan/feifan.wxml-->
+<view class="head">
+   <text class="head-txt">疫情最新动态</text>
+    <image src="/image/feiyan/head_bg_new.png" class="head-img"></image>
+    
+</view>
+<view class="data">
+    <view class="data-top">
+       <text class="txt-1">统计数据</text>
+        <text class="txt-2">截止</text>
+        <text class="txt-date">2020/5/24</text>
+        <text class="txt-3">传染源:</text>
+        <text class="txt-4">野生动物，宿主可能是蝙蝠，穿山甲也可能是中间宿主之一</text>
+        <text class="txt-5">病毒:</text>
+        <text class="txt-6">新型冠状病毒 COVID-19</text>
+       <text class="txt-7">传播途径：</text>
+       <text class="txt-8">未完全掌握。经呼吸道飞沫、接触传播是主要传播途径；存在粪口传播的风险；并可能通过气溶胶传播。</text>
+    </view>
+  <view class="data-bottom">
+      <text class="txt-title">中国（含港澳台）</text>
+      <text class="txt-diagnosis-num">84525</text>
+      <text class="txt-diagnosis">累计确诊</text>
+       <text class="txt-died-num">4645</text>
+      <text class="txt-died">累计死亡</text>
+      <text class="txt-cure-num">79750</text>
+      <text class="txt-cure">累计治愈</text>
+      <text class="txt-now-diagnosis-num">130</text>
+      <text class="txt-now-diagnosis">现存确诊</text>
+      <text class="txt-suspected-num">9</text>
+      <text class="txt-suspected">疑似病例</text>
+  </view>
+</view>
