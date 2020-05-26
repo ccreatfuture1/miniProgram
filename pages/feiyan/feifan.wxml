@@ -1,12 +1,10 @@
 <!--pages/feiyan/feifan.wxml-->
 
-
 <scroll-view scroll-y class="content">
  <view class="head">
    <text class="head-txt">疫情最新动态</text>
    <text class="head-txt-num">24小时更新</text>
    <image src="/image/feiyan/head_bg_new.png" class="head-img"></image>
-
 </view>
 <view class="data">
     <view class="data-top">
@@ -39,3 +37,4 @@
   <image src="/image/feiyan/feiyanMap.png"></image>
 </view>
 </scroll-view>
+

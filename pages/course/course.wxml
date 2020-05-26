@@ -2,13 +2,18 @@
 <view class="content-main">
   <view bindtap="examine">
 
+
   <image src="/image/index/体检.png"></image>
+  <image src="/image/course/免费.png"></image>
+
+
   <image src="/image/course/免费.png"></image>
 
   <text >限时免费</text>  
   </view>
   <!--上传测试-->
    <view>
+
   <image src="/image/index/购买.png"></image>
   <text>疾病健康</text>   
   </view>
@@ -18,6 +23,8 @@
   </view>
    <view>
   <image src="/image/index/学习.png" bindtap="course"></image>
+
+
 
   <image src="/image/course/健康.png"></image>
   <text>疾病健康</text>   
@@ -29,13 +36,20 @@
    <view>
   <image src="/image/course/美容.png" bindtap="course"></image>
 
+
+
+
   <text>护肤美容</text>  
   </view>
 </view>
 
 <view class="content-main">
   <view bindtap="examine">
+
   <image src="/image/index/体检.png"></image>
+  <image src="/image/course/成长.png"></image>
+
+
   <image src="/image/course/成长.png"></image>
 
   <text >婴儿成长</text>  
@@ -66,6 +80,9 @@
 
     <image src="/image/course/美容.png"></image>
 
+
+    <image src="/image/course/美容.png"></image>
+
     <text>饮食运动</text>
   </view>
 
@@ -73,8 +90,10 @@
     <text>不运动也能减肥？就有这种好事</text>
     <text>王颖-----新中方诊所北京分区主治医师</text>
     <text><text class="price">￥12</text>------15345人参与该讲堂</text>
-
  
+
+    <image src="/image/course/美容.png"></image>
+
 
     <image src="/image/course/美容.png"></image>
 
@@ -90,7 +109,9 @@
 
     <image src="/image/course/美容.png"></image>
 
-    <text>饮食运动</text>
+
+    <image src="/image/course/美容.png"></image>
+  <text>饮食运动</text>
   </view>
 
   	<view class="detail">
@@ -98,7 +119,8 @@
     <text>王颖-----新中方诊所北京分区主治医师</text>
     <text><text class="price">￥12</text>------15345人参与该讲堂</text>
 
-    
+    <image src="/image/course/美容.png"></image>
+
 
     <image src="/image/course/美容.png"></image>
 
@@ -109,6 +131,9 @@
     <text>不运动也能减肥？就有这种好事</text>
     <text>王颖-----新中方诊所北京分区主治医师</text>
     <text><text class="price">￥12</text>------15345人参与该讲堂</text>
+
+    <image src="/image/course/美容.png"></image>
+
 
     <image src="/image/course/美容.png"></image>
 
