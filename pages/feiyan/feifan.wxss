@@ -59,16 +59,6 @@ page{
   font-size: 25rpx;
   font-weight: 10000;
   background-color: rgb(9, 47, 201);
-  top: 80rpx;
-  left: 35rpx;
-  color: white;
-  font-weight: 10000;
-
-
-  top: 35rpx;
-  left: 35rpx;
-  color: white;
-  font-weight: 10000;
 
 }
 .head-icon{
