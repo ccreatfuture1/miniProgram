@@ -8,31 +8,47 @@
   flex-direction: row;
   font-weight: 600;
 }
-.tab3{
-  height: 159rpx;
+.service-list{
+  height: 165rpx;
   display: flex;
  border-bottom: 1px solid gray;
+}
 
-}
-.tab3 image{
-width:100rpx;
-height: 120rpx;
-margin-left: 10rpx;
-}
-.word{
-  font-size: 10pt;
- 
-  margin-top: 30rpx;
-}
-.image1{
-  width: 50rpx;
-  height: 50rpx;
-  margin-left: 600rpx;
-  position: absolute;
-}
-.image1 image{
-  width: 70rpx;
-  height: 70rpx;
-  margin-top: 50rpx;
 
+
+.service-list image{
+	width: 159rpx;
+	height: 156rpx;
+}
+.service-text{
+	flex: 1;
+	margin-left: 20rpx;
+	width: 100%;
+}
+.service-text .service-tite{
+	color: #333;
+	width: 100%;
+	font-size: 10pt;
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+.service-tags{
+	margin: 6rpx 0;
+}
+.service-tags text{
+	padding: 6rpx 16rpx;
+	border: 1rpx solid #f7982a;
+	line-height: 1;
+	color: #f7982a;
+	font-size: 28rpx;
+	border-radius: 4rpx;
+	margin-right: 10rpx;
+	margin-bottom: 10rpx;
+	white-space: nowrap;
+}
+.service-city{
+  color: #666;
+  font-size: 9pt;
 }
