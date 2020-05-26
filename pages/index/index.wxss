@@ -96,10 +96,9 @@ page{
   height: 450rpx;
   width: 95%;
   margin:0 auto;
-  border:1rpx solid rgba(88, 86, 86, 0.8);
   border-radius: 5%;
   margin-bottom: 35rpx;
-  box-shadow:0px 3px 1px 1px rgb(187, 186, 186);
+  box-shadow:0px 2px 1px 1px rgb(187, 186, 186);
   overflow: hidden;
 }
 .recommend-text > text{
@@ -112,4 +111,5 @@ page{
 }
 .recommend-text > image{
   position: absolute;
+  width: 100%;
 }

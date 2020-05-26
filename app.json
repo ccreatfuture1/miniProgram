@@ -1,7 +1,7 @@
 {
   "pages":[
-   "pages/index/index",
-    "pages/index/diary",
+    
+    "pages/index/index",
     "pages/drugs/drugs",
     "pages/herbs/herbs",
     "pages/consultation/consultation",
@@ -11,8 +11,11 @@
     "pages/chineseHealth/index",
     "pages/askDoctor/index",
     "pages/feiyan/feifan",
-    "pages/course/course"
-    
+    "pages/course/course",
+    "pages/diary/diary",
+    "pages/news/news",
+    "pages/buy/buy"
+
   ],
   "window":{
     "backgroundTextStyle":"light",

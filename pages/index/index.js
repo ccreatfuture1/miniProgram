@@ -10,7 +10,7 @@ Page({
   },
   diary:function(){
     wx.navigateTo({
-      url: '/pages/index/diary',
+      url: '/pages/diary/diary',
     })
   },
   drugs:function(){
@@ -36,6 +36,21 @@ Page({
   feiyan:function(){
     wx.navigateTo({
       url: '/pages/feiyan/feifan',
+    })
+  },
+  news:function(){
+    wx.navigateTo({
+      url: '/pages/news/news',
+    })
+  },
+  course:function(){
+    wx.navigateTo({
+      url: '/pages/course/course',
+    })
+  },
+  buy:function(){
+    wx.navigateTo({
+      url: '/pages/buy/buy',
     })
   }
 })

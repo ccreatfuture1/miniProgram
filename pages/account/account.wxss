@@ -18,7 +18,6 @@ page{
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
-  
 }
 .account-part image {
   width: 96rpx;
@@ -29,7 +28,7 @@ page{
   position: absolute;
   margin-top: 31rpx;
   margin-left: 13rpx;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 
 .account-part-one{
