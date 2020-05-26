@@ -1,6 +1,5 @@
 {
   "pages":[
-    
     "pages/index/index",
     "pages/drugs/drugs",
     "pages/herbs/herbs",
@@ -15,8 +14,7 @@
     "pages/diary/diary",
     "pages/news/news",
     "pages/buy/buy"
-
-  ],
+],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

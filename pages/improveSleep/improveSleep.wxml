@@ -1,0 +1,94 @@
+<view class="image">
+  <image src="/image/improveSleep/宁静.jpg"></image>
+</view>
+<view class="control">
+  <view class="image1">
+    <image src="/image/improveSleep/播放模式.png"></image>
+  </view>
+  <view class="image2">
+    <image src="/image/improveSleep/播放.png"></image>
+  </view>
+   <view class="image3">
+    <image src="/image/improveSleep/循环.png"></image>
+  </view>
+</view>
+<view class="title"> 
+助眠引导
+</view>
+<view class="railing">
+  <view class="word"> 
+    1
+  </view>
+  <view class="word1">
+  478-促眠-睡前呼吸法
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>
+<view class="railing">
+  <view class="word"> 
+    2
+  </view>
+  <view class="word1">
+  舒眠引导-睡前冥想
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>
+<view class="railing">
+  <view class="word"> 
+   3
+  </view>
+  <view class="word1">
+  意念助眠-睡前冥想
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>
+<view class="railing">
+  <view class="word"> 
+    4
+  </view>
+  <view class="word1">
+ 完整舒眠-睡前引导
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>
+<view class="railing">
+  <view class="word"> 
+    5
+  </view>
+  <view class="word1">
+焦虑消除-睡前冥想
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>
+<view class="railing">
+  <view class="word"> 
+   6
+  </view>
+  <view class="word1">
+恶梦缓解-睡前冥想
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>
+<view class="railing">
+  <view class="word"> 
+    7
+  </view>
+  <view class="word1">
+ 晨间振奋-冥想音乐
+  </view>
+   <view class="image4">
+   <image src="/image/improveSleep/播放.png"></image>
+   </view>
+</view>

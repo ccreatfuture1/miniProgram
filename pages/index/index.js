@@ -52,5 +52,15 @@ Page({
     wx.navigateTo({
       url: '/pages/buy/buy',
     })
+  },
+  improveSleep:function(){
+    wx.navigateTo({
+      url: '/pages/improveSleep/improveSleep',
+    })
+  },
+  foodRecommend:function(){
+    wx.navigateTo({
+      url: '/pages/food/food',
+ })
   }
 })

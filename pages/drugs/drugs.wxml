@@ -1,6 +1,4 @@
-<view class="tab">
-<text class="title">对症下药</text>
-</view>
+
 <!--搜索-->
 <view class='search'>
  <input type='text'

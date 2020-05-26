@@ -4,6 +4,7 @@ page{
   flex-direction: column;  
   color: #17181a;
   height: 100%;
+
 }
 .content{
   height: 100%;
@@ -16,6 +17,14 @@ page{
 .head-img{
   height: 200rpx;
   width: 100%;
+}
+.head{
+  height: 200rpx;
+  position: relative;
+}
+.head-img{
+  height: 200rpx;
+
   position: absolute;
   top: 0;
 }
@@ -37,6 +46,11 @@ page{
   font-size: 25rpx;
   font-weight: 10000;
   background-color: rgb(9, 47, 201);
+  top: 80rpx;
+  left: 35rpx;
+  color: white;
+  font-weight: 10000;
+
 }
 .head-icon{
   position: absolute;
@@ -56,12 +70,13 @@ page{
   box-shadow:1px 1.5px 1px 1px rgb(187, 186, 186);
   overflow: hidden;
   border:0.25rpx solid rgb(187, 186, 186);
+
 }
 .data-top{
   position: relative;
   height: 450rpx;
   width: 100%;
-  background-color: #c0ccc6d0;
+  background-color: #e4f8eed0;
   border-radius: 2.5% 2.5% 0 0;
   overflow: hidden;
 }
@@ -219,6 +234,7 @@ page{
   background-color: rgb(218, 214, 209);
   font-size: 30rpx;
 }
+
 .map{
   width: 95%;
   margin:0 auto;

@@ -1,18 +1,4 @@
-.tab{
-  width: 375prx;
-  height: 90rpx;
-  background-color: #ffffff;
-  border: 1px solid gray;
-  text-align: center;
-}
-.back{
-  width: 30rpx;
-  height: 30rpx;
-}
-.title{
-  display: block;
-  margin-top: 10px;
-}
+
 
 .calendar {
   background-color:#fcf5f5;  /*背景色为白色*/

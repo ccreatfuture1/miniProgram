@@ -60,11 +60,11 @@
       <text>肺炎咨询</text>
     </view>
     <view>
-      <image src="/image/index/6.png"></image>
+      <image src="/image/index/6.png" bindtap="improveSleep"></image>
       <text>睡眠改善</text>
     </view>
     <view>
-      <image src="/image/index/7.png"></image>
+      <image src="/image/index/7.png" bindtap="foodRecommend"></image>
       <text>饮食推荐</text>
     </view>
     <view>
@@ -98,7 +98,13 @@
        <text>人参的功效真的有传说中的那么好吗？</text>
        <image src="/image/index/rensen.jpg"></image>
    </view>
-   <view class="recommend-text"></view>
-   <view class="recommend-text"></view>
+   <view class="recommend-text" bindtap="recommend">
+       <text>人参的功效真的有传说中的那么好吗？</text>
+       <image src="/image/index/rensen.jpg"></image>
+   </view>
+   <view class="recommend-text" bindtap="recommend">
+       <text>人参的功效真的有传说中的那么好吗？</text>
+       <image src="/image/index/rensen.jpg"></image>
+   </view>
   </view>
 </scroll-view>

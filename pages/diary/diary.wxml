@@ -1,9 +1,4 @@
-<view class="tab">
-<view>
 
-</view>
-<text class="title">健康日记</text>
-</view>
 <!--日历-->
 <calendar calendar-style="calendar" header-style="header"  board-style="board" />
 <view class="signIn">
