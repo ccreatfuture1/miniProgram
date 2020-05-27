@@ -18,7 +18,7 @@
   </view>
 
     <view class="topic">
-    <text >1.您喜欢安静懒得说话吗？</text>
+    <text >2.您容易有黑眼圈吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
         <radio value="china" />没有
@@ -30,7 +30,7 @@
   </view>
 
     <view class="topic">
-    <text >1.您喜欢安静懒得说话吗？</text>
+    <text >3.您面色晦暗或者容易出现褐斑吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
         <radio value="china" />没有
@@ -42,7 +42,7 @@
   </view>
 
     <view class="topic">
-    <text >1.您喜欢安静懒得说话吗？</text>
+    <text >4.您喜欢安静懒得说话吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
         <radio value="china" />没有
@@ -54,7 +54,7 @@
   </view>
 
     <view class="topic">
-    <text >1.您喜欢安静懒得说话吗？</text>
+    <text >5.您喜欢安静懒得说话吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
         <radio value="china" />没有

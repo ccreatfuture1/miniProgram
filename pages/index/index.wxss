@@ -9,14 +9,15 @@ page{
  height: 100%;
 }
 
-/* 设置滚动条样式：
-  webkit兼容chrome（谷歌）、safari（MacOS端浏览器），-moz 兼容firefox（火狐），-ms 兼容ie。
-   因为只有谷歌支持修改滚动条样式，所以要带上::-webkit-  */
-   ::-webkit-scrollbar {    
-    width: 0;
-    height: 0;
-    color: transparent;
-  }
+.swiper-item{
+  display: block;
+}
+.slide-image {
+  width: 100%;
+}
+swiper {
+  width: 100%;
+}
   /* 主要功能区 */
   .content-main{
     display: flex;

@@ -75,18 +75,17 @@
   </view>
   
   <!-- 轮播图 -->
-<swiper class="content-slide" indicator-dots indicator-color="raga(255,255,255,0.5)" 
-    indicator-active-color="#fff" autoplay circular>
-    <swiper-item>
-      <image src="/image/index/feiyan01.jpg"></image>
-    </swiper-item>
-    <swiper-item>
-      <image src="/image/index/feiyan02.jpg"></image>
-    </swiper-item>
-    <swiper-item>
-      <image src="/image/index/feiyan03.jpg"></image>
-    </swiper-item>
+  <!-- 轮播图 -->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
   </swiper>
+</view>
 
   <!-- 今日推荐 -->
   

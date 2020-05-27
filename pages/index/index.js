@@ -3,6 +3,22 @@
 const app = getApp()
 
 Page({
+  data: {
+    imgUrls: [
+        '/image/index/feiyan01.jpg',
+        '/image/index/feiyan02.jpg',
+        '/image/index/feiyan03.jpg'
+    ],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 3000,
+    duration: 2000,
+},
+cusImageLoad: function(e){
+    var that = this;
+    that.setData(WxAutoImage.wxAutoImageCal(e));
+},
   examine:function(){
     wx.navigateTo({
       url: '/pages/examine/examine',
