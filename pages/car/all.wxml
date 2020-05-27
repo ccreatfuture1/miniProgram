@@ -1,0 +1,24 @@
+<scroll-view scroll-y class="all-content">
+   <view class="goods">
+      <text class="goods-stauts">未付款</text>
+      <radio class="goods-cheked" ></radio>
+       <image class="goods-img" src="/image/buy/drug1.jpg"></image>
+       <text class="goods-txt">冬虫夏草甲方可垃圾的离开手机的你下次叫开会就卡话费飞机靠</text>
+       <text class="goods-price">￥135</text>
+    </view>
+   <view class="goods">
+      <text class="goods-stauts">未付款</text>
+      <radio class="goods-cheked" ></radio>
+       <image class="goods-img" src="/image/buy/drug1.jpg"></image>
+       <text class="goods-txt">冬虫夏草甲方可垃圾的离开手机的你下次叫开会就卡话费飞机靠</text>
+       <text class="goods-price">￥135</text>
+    </view>
+    
+   
+  <view class="settlement">
+    <radio class="chooseAll"></radio>
+    <text class="chooseAll-txt">全选</text>
+    <text class="settlement-txt">合计:</text>
+    <text class="settlement-price">￥</text>
+  </view>
+</scroll-view>

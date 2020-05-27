@@ -7,7 +7,10 @@
 				</view>
 				<label class="weui-search-bar__label" bindtap="showInput">
 					<i class="weui-icon-search"></i>
-                    <span class="weui-search-bar__text">搜索</span>
+           <picker name="num" bindchange="pickerChange" value="{{picker.index}}" range="{{picker.arr}}">
+                <span class="weui-search-bar__text"> {{picker.arr[picker.index]}}</span>
+           </picker>
+           
 				</label>
 			</form>
             <view class="weui-search-bar__cancel-btn" bindtap="hideInput">取消</view>
@@ -15,13 +18,13 @@
  
 <view class="classify">
   <!--分类导航栏-->
-  <scroll-view class='left-navbar' scroll-y="true">
+  <!-- <scroll-view class='left-navbar' scroll-y="true">
     <view wx:for="{{screenArray}}" class="{{ currentTab == index ? 'active' : '' }}" wx:key="unique" 
      bindtap="{{ currentTab != index ? 'navbarTap':'' }}" id="{{index}}" 
       data-screenId="{{item.screenId}}">
        {{item.screenName}}
     </view>
-  </scroll-view>
+  </scroll-view> -->
   <scroll-view id="right" scroll-y="true" scroll-top="{{scrollTop}}">
     <!--顶部药品展示图片-->
     <view class="goods-banner">

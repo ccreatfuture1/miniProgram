@@ -1,7 +1,6 @@
 page{
   display: flex;
   flex-direction: column;  
-  background: rgb(248, 243, 243);
   color: #17181a;
   height: 100%;
 }
@@ -44,10 +43,10 @@ page{
 
 /**分类栏**/
 
-.left-navbar{
+/* .left-navbar{
   position:absolute;
   left:0;
-  width:17%;
+  width:15%;
   height:100%;
   background-color:#eee;
   font-size:15px;
@@ -62,11 +61,13 @@ page{
   background-color:#FFF;
   color:red;
   font-size:17px;
-}
+} */
+
 #right{
   position:absolute;
-  left: 18%;
-  width:80%;
+  left: 2.5%;
+  right: 2.5%;
+  width:95%;
   height:100%;
 }
 .img-banner{

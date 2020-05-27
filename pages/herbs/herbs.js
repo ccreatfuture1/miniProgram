@@ -3,6 +3,10 @@ Page({
   data: {
     currentTab: 0,  //对应样式变化
     scrollTop: 0,  //用作跳转后右侧视图回到顶部
+    picker:{
+      arr: ['当归','人参','何首乌','地莲','枸杞'],
+      index: 1
+    },
     screenArray: [
       {
         screenId:1,
@@ -52,6 +56,11 @@ Page({
         },
        ]
     }, //右侧内容
+  },
+  pickerChange: function(e){
+    this.setData({
+      'picker.index': e.detail.value
+    })
   },
 
   onLoad: function (options) {

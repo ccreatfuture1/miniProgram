@@ -1,6 +1,8 @@
 {
   "pages":[
+   
    "pages/index/index",
+   "pages/car/car",
     "pages/drugs/drugs",
     "pages/herbs/herbs",
     "pages/consultation/consultation",

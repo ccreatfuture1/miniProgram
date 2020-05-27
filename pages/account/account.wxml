@@ -11,11 +11,11 @@
        <view class="account-part-tip"></view>     
        <image src="/image/container/2.jpg"></image>
        <text>购买的课堂</text>
+       <view class="account-part-tip"></view>   
+       <image src="/image/container/3.jpg" bindtap="car"></image>
+        <text bindtap="car">购买的药品</text>
        <view class="account-part-tip"></view>    
-       <image src="/image/container/3.jpg"></image>
-       <text>购买的药品</text>
-       <view class="account-part-tip"></view>    
-     </view>
+      </view>
       <view class="account-part-one">
        <image src="/image/container/4.jpg"></image>
        <text>每日提醒</text>
