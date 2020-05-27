@@ -4,6 +4,29 @@ page{
   flex-direction: column;  
   color: #17181a;
   height: 100%;
+
+
+}
+.content{
+  height: 100%;
+ }
+.head{
+  height: 200rpx;
+  position: relative;
+  width: 100%;
+}
+.head-img{
+  height: 200rpx;
+  width: 100%;
+}
+.head{
+  height: 200rpx;
+  position: relative;
+}
+.head-img{
+  height: 200rpx;
+
+
   margin-left: 5rpx;
   margin-right: 5rpx;
 }
@@ -13,16 +36,30 @@ page{
 }
 .head-img{
   height: 200rpx;
+
   position: absolute;
   top: 0;
 }
 .head-txt{
   position: absolute;
   z-index: 999;
-  top: 35rpx;
+
+  top: 10rpx;
   left: 35rpx;
   color: white;
+  font-size: 50rpx;
   font-weight: 10000;
+}
+.head-txt-num{
+  position: absolute;
+  z-index: 999;
+  top: 83rpx;
+  left: 35rpx;
+  color: white;
+  font-size: 25rpx;
+  font-weight: 10000;
+  background-color: rgb(9, 47, 201);
+
 }
 .head-icon{
   position: absolute;
@@ -37,18 +74,25 @@ page{
   height: 900rpx;
   width: 95%;
   margin:0 auto;
-  border:1rpx solid rgba(88, 86, 86, 0.8);
-  border-radius: 5%;
-  margin-bottom: 35rpx;
-  box-shadow:0px 3px 1px 1px rgb(187, 186, 186);
+
+  border-radius: 2.5%;
+  margin-bottom: 10rpx;
+  box-shadow:1px 1.5px 1px 1px rgb(187, 186, 186);
   overflow: hidden;
+  border:0.25rpx solid rgb(187, 186, 186);
+
+
+
+
 }
 .data-top{
   position: relative;
   height: 450rpx;
   width: 100%;
   background-color: #e4f8eed0;
-  border-radius: 5% 5% 0 0;
+
+  border-radius: 2.5% 2.5% 0 0;
+
   overflow: hidden;
 }
 .txt-1{
@@ -205,3 +249,19 @@ page{
   background-color: rgb(218, 214, 209);
   font-size: 30rpx;
 }
+
+
+.map{
+  width: 95%;
+  margin:0 auto;
+  margin-top: -20rpx;
+  border-radius: 2.5%;
+  overflow: hidden;
+  border:0.25rpx solid rgb(187, 186, 186);
+  box-shadow:1px 1px 1px 1px rgb(187, 186, 186);
+}
+.map > image{
+ margin-left: 30rpx;
+}
+
+
