@@ -18,7 +18,6 @@ page{
   top: 10rpx;
   margin-bottom: 15px;
 }
-
 /* .content-search> .first-icon{
   height: 50rpx;
   width: 50rpx;

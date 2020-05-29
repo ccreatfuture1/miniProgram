@@ -26,42 +26,37 @@
     </view>
   </scroll-view> -->
   <scroll-view id="right" scroll-y="true" scroll-top="{{scrollTop}}">
+  
     <!--顶部药品展示图片-->
     <view class="goods-banner">
-      <image class="img-banner" src="/image/herbs/rensen.jpg"  mode="scaleToFill"></image>
+      <image class="img-banner" src="{{herbs[picker.index].img}}"  mode="scaleToFill"></image>
     </view>
     <!--药品介绍-->
     <view class="name">
-      <text class="title">人参</text>
+      <text class="title">{{herbs[picker.index].name}}</text>
     </view>
     <view class="from">
        <text class="title">来源</text>
        <text>
-            本品为五加科植物人参Panax ginseng C. A. Mey.的干燥根。栽培者为“园参”，野生者为“山参”。
-            多于秋季采挖，洗净；园参经晒干或烘干，称“生晒参”；山参经晒干，称“生晒山参”；
-            经水烫，浸糖后干燥，称“白糖参”；蒸熟后晒干或烘干，称“红参”。
+           {{herbs[picker.index].from}}
        </text>
     </view>
     <view class="function">
         <text class="title">功能主治</text>
           <text>
-            大补元气，复脉固脱，补脾益肺，生津，安神。
-            用于体虚欲脱，肢冷脉微，脾虚食少，肺虚喘咳，
-            津伤口渴，内热消渴，久病虚羸，惊悸失眠，阳痿宫冷；
-            心力衰竭，心原性休克。
+           {{herbs[picker.index].functions}}
           </text>
     </view>
     <view class="Processing">
         <text class="title">炮制</text>
           <text>
-             生晒参: 润透，切薄片，干燥。生晒山参: 用时粉碎或捣碎。
-             白糖参：经水烫，浸糖后干燥。红参：蒸熟后晒干或烘干。
+            {{herbs[picker.index].Processing}}
           </text>
     </view>
     <view class="usage">
          <text class="title">用法用量</text>
          <text>
-               3～9g，另煎兑入汤剂服；野山参若研粉吞服，一次2g，一日2次。
+           {{herbs[picker.index]. usage}}
          </text>
     </view>
   </scroll-view>
