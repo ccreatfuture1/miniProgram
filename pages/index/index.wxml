@@ -93,11 +93,11 @@
    <view class="recommend-title">
       今日推荐
    </view>
-   <view class="recommend-text" bindtap="recommend">
-       <text>人参的功效真的有传说中的那么好吗？</text>
-       <image src="/image/index/rensen.jpg"></image>
+ <view  wx:for-items="{{recommend}}" wx:key="{{item.id}}">
+   <view id="{{item.id}}" class="recommend-text" bindtap="recommend">
+       <text>{{item.title}}</text>
+       <image src="{{item.img}}"></image>
    </view>
-   <view class="recommend-text"></view>
-   <view class="recommend-text"></view>
   </view>
+ </view>
 </scroll-view>
