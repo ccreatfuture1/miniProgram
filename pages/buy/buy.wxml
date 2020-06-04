@@ -26,7 +26,7 @@
   <view class="list_item">
       <navigator url='details?id={{item.goods_id}}'>
       <view class='img'>
-        <image src="{{imghref}}{{item.goods_img}}"  mode="scaleToFill"/>
+        <image src="{{imghref}}{{item.goods_img}}"  mode="scaleToFill" bindtap="Detail"/>
       </view>
       <view class='info'>
         <view class='title'>{{item.goods_title}}</view>

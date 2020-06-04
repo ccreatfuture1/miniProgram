@@ -39,5 +39,10 @@ Page({
     this.setData({
       tab: e.currentTarget.dataset.item
     })
+  },
+  Detail:function(){
+    wx.navigateTo({
+      url: '/pages/buy/Detail',
+    })
   }
 })

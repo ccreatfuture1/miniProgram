@@ -1,6 +1,5 @@
 {
   "pages":[
-   
    "pages/index/index",
    "pages/car/car",
     "pages/drugs/drugs",
@@ -16,7 +15,8 @@
     "pages/buy/buy",
     "pages/food/food",
     "pages/feiyan/feifan",
-    "pages/course/course"
+    "pages/course/course",
+    "pages/buy/Detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
