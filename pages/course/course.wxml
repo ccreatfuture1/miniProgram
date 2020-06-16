@@ -40,7 +40,7 @@
 </view>
 <!--为你推荐讲堂-->
 <view class="recommend">
-<text>为你推荐</text>
+<text class="recommend-tab">为你推荐</text>
 	<view class="detail">
     <text>不运动也能减肥？就有这种好事</text>
     <text>王颖-----新中方诊所北京分区主治医师</text>

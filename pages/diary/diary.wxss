@@ -37,6 +37,7 @@ color: #0fda1d;
 .signIn button text{
   display: block;
   margin-top: -10rpx;
+  margin-right: 21rpx;
   font-size: 10pt;
 }
 .signItem{
@@ -77,14 +78,14 @@ color: #0fda1d;
 }
 .signItem  .items{
   position: absolute;
-  top:34rpx;
+  top:24rpx;
   left: 180rpx;
   color: green;
 }
 .signItem  .record{
   position: absolute;
-  top:34rpx;
-  right: 10rpx;
+  top:24rpx;
+  right: 33rpx;
 }
 .btn_diary{
   display: flex;
@@ -102,6 +103,8 @@ color: #0fda1d;
   text-align: left;
   color: green;
   border:none;
+  padding-left: 86rpx;
+  margin-top: -5rpx;
 }
 
 

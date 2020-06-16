@@ -36,5 +36,6 @@ margin-top:10rpx;
 }
 .news-picture >image{
   width: 100%;
+  margin-top: 10rpx;
   background: #ddd;
 }

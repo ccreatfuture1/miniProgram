@@ -19,7 +19,7 @@
 <view class="content-main">
   <view bindtap="examine">
   <image src="/image/index/体检.png"></image>
-  <text >体质改善频道</text>  
+  <text>体质改善频道</text>  
   <text>轻松改善体质</text>  
   </view>
   <!--上传测试-->

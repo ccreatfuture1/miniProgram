@@ -12,30 +12,31 @@
   height: 165rpx;
   display: flex;
  border-bottom: 1px solid gray;
+ border-right: 2rpx solid white;
 }
-
-
 
 .service-list image{
 	width: 159rpx;
-	height: 156rpx;
+	height: 195rpx;
 }
 .service-text{
 	flex: 1;
 	margin-left: 20rpx;
 	width: 100%;
 }
-.service-text .service-tite{
+ .service-tite{
 	color: #333;
 	width: 100%;
 	font-size: 10pt;
 	white-space: nowrap;
 	overflow: hidden;
   text-overflow: ellipsis;
-  font-weight: 600;
+	font-weight: 600;
+	margin-top: 8rpx;
+  margin-left: 10rpx;
 }
 .service-tags{
-	margin: 6rpx 0;
+	margin: -5rpx 0;
 }
 .service-tags text{
 	padding: 6rpx 16rpx;
@@ -50,5 +51,5 @@
 }
 .service-city{
   color: #666;
-  font-size: 9pt;
+	font-size: 9pt;
 }
