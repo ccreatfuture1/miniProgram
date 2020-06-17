@@ -4,8 +4,8 @@
   margin-left: 50rpx;
 }
 .consultation-part image {
- width: 160rpx;
- height:160rpx;
+ width: 130rpx;
+ height:130rpx;
  margin-left: 20rpx;
  margin-top: 23rpx;
 }
@@ -21,8 +21,8 @@
 .consultation-part-tab{
   display: block;
   position: absolute;
-  font-size: 19pt;
-  font-weight: bold;
+  font-size: 17pt;
+  font-weight: normal;
  margin-top: -152rpx;
   margin-left: 195rpx;
 }
@@ -39,4 +39,5 @@
 .consultation-part-one{
   height: 300rpx;
   flex: 1;
+  margin-top: 55rpx;
 }

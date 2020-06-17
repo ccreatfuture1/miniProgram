@@ -3,8 +3,7 @@
   </view>
 <view class="service-list">
 			
-					<image src="/image/askDoctor/医生1.jpg" bindtap="contact"></image>
-
+				<image src="/image/askDoctor/医生1.jpg" bindtap="contact"></image>
 				<view class="service-text">
 					<view class="service-tite">张山</view>
 					<view class="service-tags">

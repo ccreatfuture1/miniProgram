@@ -13,7 +13,11 @@ Page({
       item: item
     })
   },
-
+  begin:function() {
+    var document=Document;
+    document.getElementById("content").innerHTML('<camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 500px;"></camera>')
+  },
+ 
   // 滑块滑动时的监听函数
   changeTab: function (e) {
     console.log(e.detail)

@@ -1,94 +1,54 @@
+<!--index.wxml-->
+<!-- 标签页标题 -->
 <view class="image">
-  <image src="/image/improveSleep/宁静.jpg"></image>
+  <image animation="{{animation}}"  src="{{play.coverImgUrl}}"></image>
 </view>
 <view class="control">
   <view class="image1">
     <image src="/image/improveSleep/播放模式.png"></image>
   </view>
   <view class="image2">
-    <image src="/image/improveSleep/播放.png"></image>
+  <image wx:if="{{state=='paused'}}" src="/image//improveSleep/播放.png" bindtap="play"/>
+    <image wx:else src="/image/improveSleep/暂停.png" bindtap="pause"/>
   </view>
    <view class="image3">
     <image src="/image/improveSleep/循环.png"></image>
   </view>
 </view>
-<view class="title"> 
-助眠引导
+<view class="tab" style="margin-bottom:20rpx;">
+  <view class="tab-item {{tab==0?'active':''}}" bindtap="changeItem" data-item="0">音乐助眠</view>
+  <view class="tab-item {{tab==1?'active':''}}" bindtap="changeItem" data-item="1">呼吸助眠</view>
+  <view class="tab-item {{tab==2?'active':''}}" bindtap="changeItem" data-item="2">感受大自然</view>
 </view>
-<view class="railing">
-  <view class="word"> 
-    1
-  </view>
-  <view class="word1">
-  478-促眠-睡前呼吸法
-  </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
+<!-- 标签页内容区 -->
+<view class="content">
+  <!--current：当前滑块显示页面索引号； bindchange：滑块滑动时监听函数  -->
+  <swiper current="{{item}}" bindchange="changeTab">
+    <swiper-item>
+      <include wx:if="{{showIndex==0}}" src="info.wxml" />
+      <include wx:else src="newlist.wxml"/>
+    </swiper-item>
+    <swiper-item>
+      <include src="play.wxml" />
+    </swiper-item>
+    <swiper-item>
+      <include src="playlist" />
+    </swiper-item>
+  </swiper>
 </view>
-<view class="railing">
-  <view class="word"> 
-    2
+<!-- 底部播放器 -->
+<view class="player">
+  <image class="player-cover" src="{{play.coverImgUrl}}" />
+  <view class="player-info">
+    <view class="player-info-title">{{play.title}}</view>
+    <view class="player-info-singer">{{play.singer}}</view>
   </view>
-  <view class="word1">
-  舒眠引导-睡前冥想
+  <view class="player-controls">
+    <image src="/image/improveSleep/01.png" bindtap="changePage"/>
+    <!-- <image src="{{state=='paused'?'/images/02.png':'/images/02stop.png'}}" bindtap="play"/> -->
+    <image wx:if="{{state=='paused'}}" src="/image/improveSleep/02.png" bindtap="play"/>
+    <image wx:else src="/image/improveSleep/02stop.png" bindtap="pause"/>
+    <image src="/image/improveSleep/03.png" bindtap="next"/>
   </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
 </view>
-<view class="railing">
-  <view class="word"> 
-   3
-  </view>
-  <view class="word1">
-  意念助眠-睡前冥想
-  </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
-</view>
-<view class="railing">
-  <view class="word"> 
-    4
-  </view>
-  <view class="word1">
- 完整舒眠-睡前引导
-  </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
-</view>
-<view class="railing">
-  <view class="word"> 
-    5
-  </view>
-  <view class="word1">
-焦虑消除-睡前冥想
-  </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
-</view>
-<view class="railing">
-  <view class="word"> 
-   6
-  </view>
-  <view class="word1">
-恶梦缓解-睡前冥想
-  </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
-</view>
-<view class="railing">
-  <view class="word"> 
-    7
-  </view>
-  <view class="word1">
- 晨间振奋-冥想音乐
-  </view>
-   <view class="image4">
-   <image src="/image/improveSleep/播放.png"></image>
-   </view>
-</view>
+

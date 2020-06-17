@@ -76,10 +76,16 @@ page{
   box-shadow:0px 3px 1px 1px rgb(187, 186, 186);
 }
 .title{
-  font-size: 40rpx;
+  font-size: 17pt;
+  margin-left: 7rpx;
+  margin-bottom: 30rpx;
   font-style: inherit;
   font-family: SimHei;
   background-color: rgb(238, 242, 247);
   box-shadow:0px 2px 1px 1px rgb(187, 186, 186);
 }
+.name{
+  margin-top: 30rpx;
+}
+
 

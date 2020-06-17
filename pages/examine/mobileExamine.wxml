@@ -16,10 +16,7 @@
 
   <view class="test">
   <view><text>血压校准</text></view>
-  <view><text>开始测量</text></view>
+  <view><text bindtap="begin">开始测量</text></view>
   </view>
 </view>
-
-
- 
 </scroll-view>

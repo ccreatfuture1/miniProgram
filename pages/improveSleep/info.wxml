@@ -1,0 +1,91 @@
+<!-- scorll-view中如设置了scroll-y属性，即纵向滚动，则必须为scroll-view设置固定高度 -->
+<scroll-view class="content-info" scroll-y>
+  <!-- scroll-view示例 -->
+  <!-- <view style="background: #eee; height: 1000px"></view>
+  <view>已到达底部</view> -->
+<view wx:if="{{playIndex=='0'}}" class="railingActive" id="0" bindtap="change">
+  <view class="word"> 
+    1
+  </view>
+  <view class="word1">
+  海之泪-出羽良彰
+  </view>
+</view>
+<view wx:if="{{playIndex!='0'}}" class="railing" id="0" bindtap="change">
+  <view class="word"> 
+    1
+  </view>
+  <view class="word1">
+  海之泪-出羽良彰
+  </view>
+</view>
+<view wx:if="{{playIndex=='1'}}" class="railingActive" id="1" bindtap="change">
+  <view class="word"> 
+    2
+  </view>
+  <view class="word1">
+  两人的心情-和田薰
+  </view>
+</view>
+<view wx:if="{{playIndex!='1'}}" class="railing" id="1" bindtap="change">
+  <view class="word"> 
+    2
+  </view>
+  <view class="word1">
+  两人的心情-和田薰
+  </view>
+</view>
+
+<view wx:if="{{playIndex=='2'}}" class="railingActive" id="2" bindtap="change">
+  <view class="word"> 
+    3
+  </view>
+  <view class="word1">
+  记忆-三轮寻
+  </view>
+</view>
+<view wx:if="{{playIndex!='2'}}" class="railing" id="2" bindtap="change">
+  <view class="word"> 
+    3
+  </view>
+  <view class="word1">
+  记忆-三轮寻
+  </view>
+</view>
+
+ <view wx:if="{{playIndex=='3'}}" class="railingActive" id="3" bindtap="change">
+  <view class="word"> 
+    4
+  </view>
+  <view class="word1">
+  爬上月亮-出羽良彰
+  </view>
+</view>
+<view wx:if="{{playIndex!='3'}}" class="railing" id="3" bindtap="change">
+  <view class="word"> 
+    4
+  </view>
+  <view class="word1">
+   爬上月亮-出羽良彰
+  </view>
+</view>
+
+  <view wx:if="{{playIndex=='4'}}" class="railingActive" id="4" bindtap="change">
+  <view class="word"> 
+    5
+  </view>
+  <view class="word1">
+  大海的世界-明天
+  </view>
+</view>
+<view wx:if="{{playIndex!='4'}}" class="railing" id="4" bindtap="change">
+  <view class="word"> 
+    5
+  </view>
+  <view class="word1">
+  大海的世界-明天
+  </view>
+</view>
+
+
+</scroll-view>

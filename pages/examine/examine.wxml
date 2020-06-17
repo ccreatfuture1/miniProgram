@@ -7,7 +7,7 @@
   <view class="tab-item {{tab==3?'active':''}}" bindtap="changeItem" data-item="3">心率区间</view>
 </view>
 <!-- 标签页内容区 -->
-<view class="content">
+<view class="content" id="content">
   <!--current：当前滑块显示页面索引号； bindchange：滑块滑动时监听函数  -->
   <swiper current="{{item}}" bindchange="changeTab">
     <swiper-item>

@@ -1,3 +1,344 @@
+/**index.wxss**/
+page{
+  display: flex;
+  flex-direction: column;
+  background: #17181a;
+  color: #ccc;
+  height: 100%;
+}
+
+.tab {
+  display: flex;
+}
+
+.tab-item {
+  flex: 1;
+  font-size: 10pt;
+  text-align: center;
+  line-height: 72rpx;
+  border-bottom: 6rpx solid #eee;
+}
+
+.content {
+  flex: 1;
+}
+
+.content > swiper{
+  height: 100%;
+}
+
+.active {
+  color: #c25b5b;
+  border-bottom-color: #c25b5b;
+}
+
+/* 底部播放器样式 */
+.player {
+  display: flex;
+  align-items: center;
+  background: #222;
+  border-top: 1px solid #252525;
+  height: 112rpx;
+}
+
+.player-cover {
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 15rpx;
+  border-radius: 8rpx;
+  border:1px solid #333;
+}
+
+.player-info {
+  flex: 1;
+  font-size: 10pt;
+  line-height: 38rpx;
+  margin-left: 20rpx;
+  padding-bottom: 8rpx;
+}
+
+.player-info-singer {
+  color: #888
+}
+
+.player-controls image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 15rpx;
+}
+
+/* 首页推荐页面样式 */
+.content-info {
+  height: 100%;
+}
+
+/* 设置滚动条样式：
+  webkit兼容chrome（谷歌）、safari（MacOS端浏览器），-moz 兼容firefox（火狐），-ms 兼容ie。
+   因为只有谷歌支持修改滚动条样式，所以要带上::-webkit-  */
+::-webkit-scrollbar {    
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/* 推荐页轮播区 */
+.content-info-slide {
+  height: 302rpx;
+  margin-bottom: 20px;
+}
+
+.content-info-slide image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 推荐页功能按钮区 */
+.content-info-portal {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.content-info-portal > view {
+  flex: 1;
+  font-size: 11pt;
+  /* 文本居中 */
+  text-align: center;
+}
+
+.content-info-portal image {
+  width: 120rpx;
+  height: 120rpx;
+  /* 上下边距为20rpx，左右居中 */
+  margin: 20rpx auto;
+  /* 设置为块级元素，独占一行 */
+  display: block;
+}
+
+/* 推荐页热门音乐区 */
+.cotent-info-list{
+  font-size: 11pt;
+  margin-bottom: 20rpx;
+}
+
+.list-title {
+  margin: 20rpx 35rpx;
+}
+
+.list-inner {
+  display: flex;
+  /* 自动换行 */
+  flex-wrap: wrap;
+  margin:0 20rpx
+}
+
+.list-item {
+  flex: 1;
+}
+
+.list-item > image {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  margin:0 auto;
+  /* 设置圆角形状 */
+  border-radius: 10rpx;
+  border:1rpx solid #555
+}
+
+.list-item > view {
+  width: 200rpx;
+  margin: 10rpx auto;
+  font-size: 10pt;
+}
+
+/* 播放器页面样式 */
+.content-play {
+  justify-content: space-around;    /*左右两边留相等间距*/
+  height: 100%;
+  text-align: center;
+}
+
+.content-play-info > view {
+  color: #888;
+  font-size: 11pt;
+}
+
+.content-play-cover image{
+  /* animation设置动画样式：动画名称 持续时间 运动曲线 播放次数 */
+  animation: rotateImage 10s linear infinite;
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+/* 自定义动画：360度旋转 */
+@keyframes rotateImage{
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content-play-progress {
+  display: flex;
+  align-items: center;
+  margin:0 35rpx;
+  font-size: 9pt;
+  text-align: center;
+}
+
+.content-play-progress > view {
+  flex: 1;
+}
+
+/* 播放列表样式 */
+.content-playlist {
+  height: 100%;
+}
+
+.playlist-item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #333;
+  height: 112rpx;
+}
+
+.playlist-cover{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 15rpx;
+  border-radius: 8rpx;
+  border:1px solid #333;
+}
+
+.playlist-info {
+  flex: 1;
+  font-size: 10pt;
+  line-height: 38rpx;
+  margin-left: 20rpx;
+  padding-bottom: 8rpx;
+}
+
+.playlist-info-singer{
+  color: #888;
+}
+
+.playlist-controls{
+  font-size: 10pt;
+  margin-right: 20rpx;
+  color: #c25b5b;
+}
+
+/* 云音乐新歌榜样式 */
+.newlist-top {
+  display: flex;
+  width: 100%;
+  height: 460rpx;
+  background-image: url('http://127.0.0.1:3000/newlist-bg.jpeg'); /*背景图片只能使用网络图片*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.newlist-top-back {
+  position: relative;
+  top:20rpx;
+  left:20rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.newlist-top-back-img {
+  width: 35rpx;
+  height: 35rpx;
+  opacity: 0.8; 
+}
+
+.newlist-top-title {
+  display: flex;
+  font-size: 20pt;
+  letter-spacing: 5rpx;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.newlist-content {
+  height: 100%;
+  margin-top: 20rpx;
+}
+
+.newlist-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  height: 112rpx;
+}
+
+.newlist-item-index {
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 20pt;
+  margin-left: 15rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+/* 排名第一的序号样式 */
+.newlist-item-index-first {
+  color: red;
+}
+
+.newlist-item-index-second {
+  color: lightsalmon;
+}
+
+.newlist-item-index-third {
+  color: lightgreen;
+}
+
+.newlist-item-cover{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 15rpx;
+  border-radius: 8rpx;
+  border:1px solid #333;
+}
+
+.newlist-item-info {
+  flex: 1;
+  font-size: 10pt;
+  line-height: 38rpx;
+  margin-left: 20rpx;
+  padding-bottom: 8rpx;
+}
+
+.newlist-item-title{
+  font-size: 12pt;
+}
+
+.newlist-item-singer {
+  margin-top: 5rpx;
+  color: #888;
+}
+
+.newlist-item-add {
+  position: relative;
+  right: 30rpx;
+  align-items: center;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.newlist-item-add-img {
+  width: 40rpx;
+  height: 40rpx;
+}
+/* 睡眠引导 */
 .image{
   width: 100%rpx;
   height: 400rpx;
@@ -52,22 +393,24 @@
 }
 .railing{
   height: 100rpx;
-  display: flex;
+
+}
+.railingActive{
+  height: 100rpx;
+ color: chocolate;
 
 }
 .word{
   position: absolute;
   font-size: 11pt;
-  color: gray;
   font-weight: 600;
  margin-top: 20rpx;
- margin-left: 50rpx;
+ margin-left: 200rpx;
 }
 .word1{
   position: absolute;
   font-size: 10pt;
-  color: gray;
-  margin-left: 220rpx;
+  margin-left: 250rpx;
   margin-top: 20rpx;
 }
 .image4{
@@ -81,4 +424,27 @@
   height: 60rpx;
   margin-top: 20rpx;
 
+}
+/* 感受大自然 */
+ /* 推荐页功能按钮区 */
+ .content-portal {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top:20rpx;
+}
+
+.content-portal > view {
+  flex: 1;
+  font-size: 8pt;
+  /* 文本居中 */
+  text-align: center;
+}
+
+.content-portal image {
+  width: 200rpx;
+  height: 200rpx;
+  /* 上下边距为20rpx，左右居中 */
+  margin: 20rpx auto;
+  /* 设置为块级元素，独占一行 */
+  display: block;
 }

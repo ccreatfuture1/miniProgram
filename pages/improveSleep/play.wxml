@@ -1,0 +1,70 @@
+<scroll-view class="content-play" scroll-y>
+<view wx:if="{{playIndex=='5'}}" class="railingActive" id="5" bindtap="change">
+  <view class="word"> 
+    1
+  </view>
+  <view class="word1">
+  478促眠呼吸法
+  </view>
+</view>
+<view wx:if="{{playIndex!='5'}}" class="railing" id="5" bindtap="change">
+  <view class="word"> 
+    1
+  </view>
+  <view class="word1">
+ 478促眠呼吸法
+  </view>
+</view>
+<view wx:if="{{playIndex=='6'}}" class="railingActive" id="6" bindtap="change">
+  <view class="word"> 
+    2
+  </view>
+  <view class="word1">
+  均等呼吸放松法
+  </view>
+</view>
+<view wx:if="{{playIndex!='6'}}" class="railing" id="6" bindtap="change">
+  <view class="word"> 
+    2
+  </view>
+  <view class="word1">
+  均等呼吸放松法
+  </view>
+</view>
+
+<view wx:if="{{playIndex=='7'}}" class="railingActive" id="7" bindtap="change">
+  <view class="word"> 
+    3
+  </view>
+  <view class="word1">
+  冥想禅修呼吸法
+  </view>
+</view>
+<view wx:if="{{playIndex!='7'}}" class="railing" id="7" bindtap="change">
+  <view class="word"> 
+    3
+  </view>
+  <view class="word1">
+  冥想禅修呼吸法
+  </view>
+</view>
+
+ <view wx:if="{{playIndex=='8'}}" class="railingActive" id="8" bindtap="change">
+  <view class="word"> 
+    4
+  </view>
+  <view class="word1">
+  固本培元呼吸法
+  </view>
+</view>
+<view wx:if="{{playIndex!='8'}}" class="railing" id="8" bindtap="change">
+  <view class="word"> 
+    4
+  </view>
+  <view class="word1">
+  固本培元呼吸法
+  </view>
+</view>
+
+
+</scroll-view>

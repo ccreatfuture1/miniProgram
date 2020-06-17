@@ -33,7 +33,10 @@
     </view>
     <!--药品介绍-->
     <view class="name">
-      <text class="title">{{herbs[picker.index].name}}</text>
+      <text class="title">名称</text>
+      <text>
+          {{herbs[picker.index].name}}
+      </text>
     </view>
     <view class="from">
        <text class="title">来源</text>

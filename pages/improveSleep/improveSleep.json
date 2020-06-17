@@ -1,3 +1,7 @@
-{
-  "usingComponents": {}
+
+ {
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "助眠",
+  "navigationBarTextStyle":"black"
 }

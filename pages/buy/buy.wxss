@@ -13,7 +13,7 @@
   font-size: 10pt;
   text-align: center;
   line-height: 72rpx;
-  border-bottom: 6rpx solid #eee;
+  border-bottom: 2rpx solid #eee;
 }
 /*商品列表*/
 .clear{
