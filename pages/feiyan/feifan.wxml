@@ -34,7 +34,7 @@
   </view>  
 </view>
 <view class="map">
-  <image src="/image/feiyan/feiyanMap.png"></image>
+  <image src="http://qc0cp61br.bkt.clouddn.com/image/feiyan/feiyanMap.png"></image>
 </view>
 </scroll-view>
 

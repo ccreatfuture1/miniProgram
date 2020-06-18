@@ -9,10 +9,10 @@
     <text >1.您喜欢安静懒得说话吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
-        <radio value="china" />没有
-        <radio value="china" />很少
-        <radio value="china" />有时
-        <radio value="china" />经常
+        <radio value="1" />没有
+        <radio value="2" />很少
+        <radio value="3" />有时
+        <radio value="4" />经常
       </label>
     </radio-group>
   </view>
@@ -21,10 +21,10 @@
     <text >2.您容易有黑眼圈吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
-        <radio value="china" />没有
-        <radio value="china" />很少
-        <radio value="china" />有时
-        <radio value="china" />经常
+        <radio value="1" />没有
+        <radio value="2" />很少
+        <radio value="3" />有时
+        <radio value="4" />经常
       </label>
     </radio-group>
   </view>
@@ -33,22 +33,21 @@
     <text >3.您面色晦暗或者容易出现褐斑吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
-        <radio value="china" />没有
-        <radio value="china" />很少
-        <radio value="china" />有时
-        <radio value="china" />经常
+        <radio value="1" />没有
+        <radio value="2" />很少
+        <radio value="3" />有时
+        <radio value="4" />经常
       </label>
     </radio-group>
   </view>
-
     <view class="topic">
     <text >4.您喜欢安静懒得说话吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
-        <radio value="china" />没有
-        <radio value="china" />很少
-        <radio value="china" />有时
-        <radio value="china" />经常
+        <radio value="1" />没有
+        <radio value="2" />很少
+        <radio value="3" />有时
+        <radio value="4" />经常
       </label>
     </radio-group>
   </view>
@@ -57,12 +56,13 @@
     <text >5.您喜欢安静懒得说话吗？</text>
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="radio-radio">
-        <radio value="china" />没有
-        <radio value="china" />很少
-        <radio value="china" />有时
-        <radio value="china" />经常
+        <radio value="1" />没有
+        <radio value="2" />很少
+        <radio value="3" />有时
+        <radio value="4" />经常
       </label>
     </radio-group>
   </view>
+  <button class="submit" bindtap="submit">提交我的测试</button>
 </view>
 </scroll-view>

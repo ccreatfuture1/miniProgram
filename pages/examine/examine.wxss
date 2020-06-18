@@ -102,6 +102,10 @@ page{
 .radio-radio{
   font-size: 8pt;
 }
+.submit{
+  margin-top:20rpx;
+  border: 2rpx solid #ccc;
+}
 /*手环测量*/
 
 
