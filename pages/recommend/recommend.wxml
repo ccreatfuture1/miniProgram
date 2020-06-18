@@ -10,7 +10,7 @@
             <text class="banner-icon-txt">健康科普平台</text>
         </view>
         <view class="txt">
-          {{recommend[recommendIndex].txt}}
+          {{recommend[recommendIndex].article}}
         </view>
            
       </view>
